@@ -102,6 +102,18 @@ extension ArgumentDeclaration
     {
         return ArgumentDeclaration(name: argument.rawValue, type: type, shortForm: shortForm, longForm: longForm)
     }
+
+    static func forName(argument: ArgumentName, type: ArgumentType, shortForm: String)
+        -> ArgumentDeclaration
+    {
+        return ArgumentDeclaration(name: argument.rawValue, type: type, shortForm: shortForm)
+    }
+
+    static func forName(argument: ArgumentName, type: ArgumentType, longForm: String)
+        -> ArgumentDeclaration
+    {
+        return ArgumentDeclaration(name: argument.rawValue, type: type, longForm: longForm)
+    }
 }
 
 extension ArgumentValues
@@ -146,44 +158,53 @@ extension ArgumentValues
 
 
 let dataFile = ArgumentDeclaration.forName(.DataFile, type: .SingleValue, shortForm: "d", longForm: "data")
+let stdinData = ArgumentDeclaration.forName(.StdinData, type: .Flag, longForm: "stdin-data")
 let templateFile = ArgumentDeclaration.forName(.TemplateFile, type: .SingleValue, shortForm: "t", longForm: "template")
 let verbose = ArgumentDeclaration.forName(.Verbose, type: .Flag, shortForm: "v", longForm: "verbose")
 let help = ArgumentDeclaration.forName(.Help, type: .Flag, shortForm: "h", longForm: "help")
 let output = ArgumentDeclaration.forName(.OutputFile, type: .SingleValue, shortForm: "o", longForm: "output")
 
+let proc = ArgumentProcessor(declarations: [dataFile, stdinData, templateFile, verbose, help, output])
 
-let proc = ArgumentProcessor(declarations: [dataFile, templateFile, verbose, help, output])
-
+//print(Process.arguments)
 let argList = proc.process(Process.arguments)
+//print(argList)
 
-for argName in argList.names {
-    if argList.isDeclaredArgument(argName) {
-        if argList.hasMultipleValues(argName) {
-            let values = argList.allArgumentValues(argName)
-            print("\(argName) = \(values)")
-        }
-        else if let str = argList.argumentValue(argName) {
-            print("\(argName) = \(str)")
-        }
-        else {
-            print("\(argName) = true")
-        }
-    }
-    else {
-        print("UNRECOGNIZED: \(argName)")
-    }
-}
+//for argName in argList.names {
+//    if argList.isDeclaredArgument(argName) {
+//        if argList.hasMultipleValues(argName) {
+//            let values = argList.allArgumentValues(argName)
+//            print("\(argName) = \(values)")
+//        }
+//        else if let str = argList.argumentValue(argName) {
+//            print("\(argName) = \(str)")
+//        }
+//        else {
+//            print("\(argName) = true")
+//        }
+//    }
+//    else {
+//        print("UNRECOGNIZED: \(argName)")
+//    }
+//}
 
 var templateSource = TemplateSource.Stdin
 var dataSource = DataSource.None
 var destination = OutputDestination.Stdout
 
 if argList.hasArgument(.Help) {
-    print("HELP!")
+    fatalError("Help feature not yet implemented")
 }
 
 if argList.hasArgument(.TemplateFile) {
     templateSource = .File(argList.argumentValue(.TemplateFile)!)
+
+    if argList.hasArgument(.StdinData) {
+        dataSource = .Stdin
+    }
+}
+else if argList.hasArgument(.StdinData) {
+    fatalError("Can only take data from stdin when a template file is explicitly specified")
 }
 
 if argList.hasArgument(.DataFile) {
