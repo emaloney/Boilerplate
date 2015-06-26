@@ -1,0 +1,1 @@
+PODS_MBTOOLBOX_OTHER_LDFLAGS = -framework "Security" -framework "SystemConfiguration"

@@ -1,0 +1,4008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0022BAD941F6638C20AEDE82 = {
+			isa = PBXBuildFile;
+			fileRef = 0394B94256EF80428B9D225C;
+		};
+		00AF974725FDA574591BAA7B = {
+			isa = PBXBuildFile;
+			fileRef = 8CAE13E916C645D6B02DE006;
+		};
+		00F014B21DF52590C779664C = {
+			isa = PBXBuildFile;
+			fileRef = 2DC238AFE3B897378F081820;
+		};
+		01BE236312DBDFEF4887A713 = {
+			isa = PBXBuildFile;
+			fileRef = DD9168A6E6E1232822D8B9A7;
+		};
+		05129CF1FDCAC83369101175 = {
+			isa = PBXBuildFile;
+			fileRef = 5D4698D1A6275ED43227C559;
+		};
+		0572D7FCB26B693DB5C979E1 = {
+			isa = PBXBuildFile;
+			fileRef = 478DB0EB5E4C35A14D205EF9;
+		};
+		0770E30240C4DB0730285AFC = {
+			isa = PBXBuildFile;
+			fileRef = 1C241DBA0A0752A7DD829DF6;
+		};
+		0831815BC89B4FD80D6D07CA = {
+			isa = PBXBuildFile;
+			fileRef = F83292424064825F2B9AA943;
+		};
+		093C14B8581CF33E34C60EAB = {
+			isa = PBXBuildFile;
+			fileRef = 440CD3A82E3831AFC339C23B;
+		};
+		0E7DC3DA431FEDFB8A126EAB = {
+			isa = PBXBuildFile;
+			fileRef = 41CD7E05A789BC53D260C0AC;
+		};
+		11518B39944F200731799475 = {
+			isa = PBXBuildFile;
+			fileRef = B9260577556B59A75EDEC19D;
+		};
+		119F5D55ABCAD0E7D5B6F7EE = {
+			isa = PBXBuildFile;
+			fileRef = B6B7330ECFCD76E26E548F32;
+		};
+		1355221F4310258A9FC35C7F = {
+			isa = PBXBuildFile;
+			fileRef = 98A32F21395250064ACB0194;
+		};
+		13B8ABBFC9758645CBAC217B = {
+			isa = PBXBuildFile;
+			fileRef = 9782083175341843A8F13242;
+		};
+		14B242B84887A2D3186923FC = {
+			isa = PBXBuildFile;
+			fileRef = 60A31FB1F20CF76AD621393B;
+		};
+		14EB902B7CC511FB6FC24B1B = {
+			isa = PBXBuildFile;
+			fileRef = 41BDB4F7BC97581790936FDB;
+		};
+		164014031FEE64596B8D902F = {
+			isa = PBXBuildFile;
+			fileRef = C18608E3BC3B4942CFB4D53C;
+		};
+		18123531197359A5A9B14C7D = {
+			isa = PBXBuildFile;
+			fileRef = F1EE646B0E997DE29CD9E135;
+		};
+		182F89DBAF40F060EF3B44EE = {
+			isa = PBXBuildFile;
+			fileRef = B61E85F7933750A1F4A63967;
+		};
+		197375F7238576421E6E05ED = {
+			isa = PBXBuildFile;
+			fileRef = 9D2A9645F10D420FEC78AB38;
+		};
+		1B343D1037D13D8C3764D2AC = {
+			isa = PBXBuildFile;
+			fileRef = 4EE1F40D1599AC3340749413;
+		};
+		1BE021E97F3A79BD3326DB7C = {
+			isa = PBXBuildFile;
+			fileRef = ABA47AC4FD01B77F6BFA321F;
+		};
+		1DD38D8268D579B546D44F22 = {
+			isa = PBXBuildFile;
+			fileRef = 9DF0658B211E4F78B08F0C0A;
+		};
+		1E21F8C3BCA89842D6E07B68 = {
+			isa = PBXBuildFile;
+			fileRef = 7D333519B0EDDAB5B048EE4C;
+		};
+		217CC7228720061887AD4FB6 = {
+			isa = PBXBuildFile;
+			fileRef = 2DE23F34DA93011E598A377B;
+		};
+		23DFA6D72337B0F15A437078 = {
+			isa = PBXBuildFile;
+			fileRef = A9DC5487DCBE5D13D46CCF4C;
+		};
+		247BD8FF2725D72836A5BD5A = {
+			isa = PBXBuildFile;
+			fileRef = E2DF58166763C545EE76730C;
+		};
+		24C343C58CA93EE0672EA2EA = {
+			isa = PBXBuildFile;
+			fileRef = EE5868269E465597E86FA096;
+		};
+		24DF2DA06130EAC90ED06C67 = {
+			isa = PBXBuildFile;
+			fileRef = FE14921931AEC3A73EEA679B;
+		};
+		252D6EBA770AAD3CAE63640B = {
+			isa = PBXBuildFile;
+			fileRef = 53DA6B15AD0C27F1FEA82562;
+		};
+		256BB2E95CCFAEA5CFE059BB = {
+			isa = PBXBuildFile;
+			fileRef = 9FF4671003C4E04351DC2DCC;
+		};
+		257B5E2CF14DF609B08ADDD1 = {
+			isa = PBXBuildFile;
+			fileRef = E797ADA8975E70A8E40F99A2;
+		};
+		2A17F147DAC2FCE95887E595 = {
+			isa = PBXBuildFile;
+			fileRef = D56E4B267DD611FE85DEF617;
+		};
+		2BFC84D003188399C10AC5F1 = {
+			isa = PBXBuildFile;
+			fileRef = 94BDCE534C3320442AC3B4A8;
+		};
+		2C1D657B78D87E5595F83420 = {
+			isa = PBXBuildFile;
+			fileRef = 03C1775B19F44037899C84D1;
+		};
+		2DC8507C008839A868BB0A18 = {
+			isa = PBXBuildFile;
+			fileRef = 8B080DB65009A8B91C73D963;
+		};
+		2DCE7398A6685D37D99BCFA0 = {
+			isa = PBXBuildFile;
+			fileRef = 66BA44423744FE003AA38568;
+		};
+		303AFED2759B324B1821F688 = {
+			isa = PBXBuildFile;
+			fileRef = 30B4743B5F80632EEADFA8EE;
+		};
+		30C522888DFC8C59C877372B = {
+			isa = PBXBuildFile;
+			fileRef = CB4876F455855F473976D861;
+		};
+		31687BFB3ABC68DC27BDE64C = {
+			isa = PBXBuildFile;
+			fileRef = 4501A33E52396F737CE678E3;
+		};
+		31D74DEF108EA72F6417CA4A = {
+			isa = PBXBuildFile;
+			fileRef = B04CDFB52ADCAA703556AADA;
+		};
+		324D07491049B152B32919DE = {
+			isa = PBXBuildFile;
+			fileRef = 61C80FBE93ADD7BB206C2490;
+		};
+		3274D8CCCA4FC810FC4A65F8 = {
+			isa = PBXBuildFile;
+			fileRef = 554E2948B8DE36EAD665058C;
+			settings = {
+				COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0";
+			};
+		};
+		32ED718A195AD2E40BA3F917 = {
+			isa = PBXBuildFile;
+			fileRef = 97CE985E445AE33EC3E81B3B;
+		};
+		345DD6BFD7CCFC5D74748A49 = {
+			isa = PBXBuildFile;
+			fileRef = EB3D33E98E3A379B119E3B7B;
+		};
+		3492993505479AD8048065DF = {
+			isa = PBXBuildFile;
+			fileRef = 7D0E332AC678EFD877BA1AC3;
+		};
+		355DBE3D78C673C89FD5D36F = {
+			isa = PBXBuildFile;
+			fileRef = 4AC72C4C92569DD91153DA3F;
+		};
+		378048D41BDBAEA65AA42272 = {
+			isa = PBXBuildFile;
+			fileRef = DB9A24BE930E1536EA555677;
+		};
+		3CB2496AF7C7FB71E96B0A40 = {
+			isa = PBXBuildFile;
+			fileRef = E72B4683BC387916BD0526F9;
+		};
+		3CEFA75767D3C768E1C77652 = {
+			isa = PBXBuildFile;
+			fileRef = BC9542A7DEDABC029B3E073F;
+		};
+		3F5D7F63C46F13F2F48108E8 = {
+			isa = PBXBuildFile;
+			fileRef = BF123A72D5C874D94A08B2A4;
+		};
+		3F7BE3AD703E144DB6CDC625 = {
+			isa = PBXBuildFile;
+			fileRef = A4EFFAD820D1D39D2BEBC758;
+		};
+		40F18E48AED58EA8AA23C934 = {
+			isa = PBXBuildFile;
+			fileRef = 2AE6DE3711BA0D806ABE9BF2;
+		};
+		412A64D2EE7AC9A97278F20A = {
+			isa = PBXBuildFile;
+			fileRef = 28A8B915B39C5464B29E6925;
+		};
+		426B08D2E36D03C59AFAD8D2 = {
+			isa = PBXBuildFile;
+			fileRef = AD8C02970728E4F79821B026;
+		};
+		45135BCC3DFC283F2824D8E3 = {
+			isa = PBXBuildFile;
+			fileRef = 74F45044D6BC09175E128B2B;
+		};
+		4899C239A93A3AB433452942 = {
+			isa = PBXBuildFile;
+			fileRef = C5EEE44517EEE18105EA8929;
+		};
+		4BD5D1AA1664F21231C875F7 = {
+			isa = PBXBuildFile;
+			fileRef = 2BA1699DA0C3EE3760F57FBF;
+		};
+		4E19FBAB63BBF674D77B8D54 = {
+			isa = PBXBuildFile;
+			fileRef = 9B8D69BE84330CC4F8CE9D9D;
+		};
+		4EEA342E8E96B55F71340E88 = {
+			isa = PBXBuildFile;
+			fileRef = D7BC799DC9B8E6BE9C19C0A1;
+		};
+		4F1BFD13F635A8A95C074699 = {
+			isa = PBXBuildFile;
+			fileRef = EFFC4BDA407F79FF9E1FE411;
+		};
+		4F67FF653E03DF6F7AE1155A = {
+			isa = PBXBuildFile;
+			fileRef = 4FAB285A6B9F006E267F4398;
+		};
+		5100DB8F3F36DDD6CB3C2D9F = {
+			isa = PBXBuildFile;
+			fileRef = 6AAD64533565B23F07B0A3BA;
+		};
+		530EA894C3CC232F3F99B483 = {
+			isa = PBXBuildFile;
+			fileRef = 8B168F2895CE42E8D8F33158;
+		};
+		55981B55A0C201691562FAF6 = {
+			isa = PBXBuildFile;
+			fileRef = BFFCDFED9729B31BD0505E88;
+		};
+		56023C16143AC57EB7187AB3 = {
+			isa = PBXBuildFile;
+			fileRef = BF40A86F9F18613A341A3A0E;
+		};
+		57A8E82475077A08746D063D = {
+			isa = PBXBuildFile;
+			fileRef = 536243F770CCEBBA1BDFE735;
+		};
+		57EB1B544507ECD3AD81345D = {
+			isa = PBXBuildFile;
+			fileRef = 068BCDF8A187776B8084AD7C;
+		};
+		58D231C57C8074577A653FAA = {
+			isa = PBXBuildFile;
+			fileRef = 074C4C8497C4BFA2B154EF44;
+		};
+		58F44F8D748E179BCD8DEE52 = {
+			isa = PBXBuildFile;
+			fileRef = B9CBD967C102BA17F3BB60F3;
+		};
+		5A791F731F249F62CC81A1DC = {
+			isa = PBXBuildFile;
+			fileRef = E53E7AF971C5769A5159395B;
+		};
+		5ACA588B5495A11D8624AAFD = {
+			isa = PBXBuildFile;
+			fileRef = 87632A2A320A7845ADF28292;
+		};
+		5D1A2FA4053362D3643AA76A = {
+			isa = PBXBuildFile;
+			fileRef = 8FF1A17980F63144F3BF843E;
+		};
+		5D91C788E8AA3EA35EE98C0C = {
+			isa = PBXBuildFile;
+			fileRef = FE819B23D10D64D3299A52E1;
+		};
+		5DB862B0E72126751CDD3A8C = {
+			isa = PBXBuildFile;
+			fileRef = E1C77CE36286ED6106931245;
+		};
+		616872F6EA7B9A0B64BD8B94 = {
+			isa = PBXBuildFile;
+			fileRef = 6CDAA9D684B8E18E238BD2BF;
+		};
+		624B28C3204DA81EE1EC42C9 = {
+			isa = PBXBuildFile;
+			fileRef = 9371159555E3BE749B0CA76C;
+		};
+		650E087A993D0FFEE372FFDB = {
+			isa = PBXBuildFile;
+			fileRef = 454B07C4DFE8C91769DEEAFD;
+		};
+		65D4904A26F25D5AC2BC107F = {
+			isa = PBXBuildFile;
+			fileRef = 9ECE8F10D5160E9949269C03;
+		};
+		6980EDD118A854983EE170B2 = {
+			isa = PBXBuildFile;
+			fileRef = 7D8AAD9B2FE623EAFCE2A580;
+		};
+		6C45873873AAA0F6B45F9CA7 = {
+			isa = PBXBuildFile;
+			fileRef = 9A7E4DC4ACC216E881B47C81;
+		};
+		6DB48D67EE1EE65C72663411 = {
+			isa = PBXBuildFile;
+			fileRef = 3800019FAA683C8B2DB76C2D;
+		};
+		6EDAB6038653A6750D769747 = {
+			isa = PBXBuildFile;
+			fileRef = 9506A18E453F46EA893DB9C2;
+		};
+		70D1785008769E58681A0BAE = {
+			isa = PBXBuildFile;
+			fileRef = 9FF4671003C4E04351DC2DCC;
+		};
+		70D7D43BB5A522C790DBDAF1 = {
+			isa = PBXBuildFile;
+			fileRef = C424C35C17FF9DC3261C0F65;
+		};
+		711D9413A739FA9389361D93 = {
+			isa = PBXBuildFile;
+			fileRef = B7D35FC21B0BAEE954B10D95;
+		};
+		732C430DD7135DA123EF31FA = {
+			isa = PBXBuildFile;
+			fileRef = 576257D0E221A7903A3D542B;
+		};
+		74253BF5E761EF5C35AFAC9E = {
+			isa = PBXBuildFile;
+			fileRef = 660E5C1FC2E8BB6CB041FBB5;
+		};
+		74A047754ADDCA09F0CC8FEB = {
+			isa = PBXBuildFile;
+			fileRef = E3BC6A6FFDDD7841D995FCFA;
+		};
+		75436AC37CE80FC9A6C4B244 = {
+			isa = PBXBuildFile;
+			fileRef = 73EECF4B3E3EEAB719CFC785;
+		};
+		76260B2D6D0D6427A6332AA3 = {
+			isa = PBXBuildFile;
+			fileRef = 8F02408452060659D6804392;
+		};
+		771C48DB5CD67255283ED670 = {
+			isa = PBXBuildFile;
+			fileRef = AC9172DA5AE16AF0CFCF4F7B;
+		};
+		7842B3F055624085B1922EC7 = {
+			isa = PBXBuildFile;
+			fileRef = 8630DF297B95600B9623D1DC;
+		};
+		78EEA7B736F5DC7E0162EE7B = {
+			isa = PBXBuildFile;
+			fileRef = FCD636E2C20C2EEC92BEEBA7;
+		};
+		7D73B8FCF49D2BE052030FA2 = {
+			isa = PBXBuildFile;
+			fileRef = 9FF4671003C4E04351DC2DCC;
+		};
+		7E44C98933CF66372C2BC599 = {
+			isa = PBXBuildFile;
+			fileRef = 8A0C10EC5118EC855F846A51;
+		};
+		7E7D90A6580921A3DC203518 = {
+			isa = PBXBuildFile;
+			fileRef = 09699269C34D74692B8EDA0E;
+		};
+		7FEC7788A89D48F6136E31A2 = {
+			isa = PBXBuildFile;
+			fileRef = F4BBA4A8DECD24FE22DF5BA7;
+		};
+		805D734F8B14D90A95EE1F28 = {
+			isa = PBXBuildFile;
+			fileRef = E8A075ED4A4F7D3DDAD88963;
+		};
+		808E09CCB97D7C5A1069154A = {
+			isa = PBXBuildFile;
+			fileRef = 876DD7E0E8E4114235373633;
+		};
+		812B7CE7CC40298592CC7022 = {
+			isa = PBXBuildFile;
+			fileRef = 4302144C8454E0ECED4616EB;
+		};
+		818C937FE6CADDFDF55C41C3 = {
+			isa = PBXBuildFile;
+			fileRef = F40B890CA55C51C0FFAEE298;
+		};
+		84160ABFF15288098F56BEDB = {
+			isa = PBXBuildFile;
+			fileRef = CB7173E0BCA6AC372808FF0C;
+		};
+		842B21B9EDE2FE5F8CB9EEAC = {
+			isa = PBXBuildFile;
+			fileRef = 2DB5E2C8C0569EEABC2489B4;
+		};
+		84E697112ED35C5EBEBCC849 = {
+			isa = PBXBuildFile;
+			fileRef = 59C7CE55F1F6433FFE741A99;
+		};
+		88F58ADE5BF7064ACD97A7CB = {
+			isa = PBXBuildFile;
+			fileRef = BF5597C1818A0B62FAE797F0;
+		};
+		8BD3F9F5C0F1C20088CB2B27 = {
+			isa = PBXBuildFile;
+			fileRef = B5AF9585019C7C7E43859E7F;
+		};
+		8C49316B0301E54021E089E7 = {
+			isa = PBXBuildFile;
+			fileRef = 13D01B2B6D2851AA3C80B0BA;
+		};
+		8C88969C00E364ED0DC2BC04 = {
+			isa = PBXBuildFile;
+			fileRef = 800B994E22C2CCCC827DA79C;
+		};
+		8D20E77A7AAB2F6C895D75F9 = {
+			isa = PBXBuildFile;
+			fileRef = D60C6F33038E5ECCED5B134F;
+		};
+		8D257294326761B899E8C733 = {
+			isa = PBXBuildFile;
+			fileRef = 21A683C5E6B92EFAA87C1B13;
+		};
+		8DF45CAB240B022B56D94886 = {
+			isa = PBXBuildFile;
+			fileRef = 6DAE50AE9ADC87F5A0E9A866;
+		};
+		8E2B65F60405E413B679B507 = {
+			isa = PBXBuildFile;
+			fileRef = 0ADD0EAAA02F1A6F2513F4CE;
+		};
+		8F91FBC6A424324CCEA28737 = {
+			isa = PBXBuildFile;
+			fileRef = F0A37715FA41D09A0EDB7165;
+		};
+		8FBBB2DBE2D1C6D6937FA18C = {
+			isa = PBXBuildFile;
+			fileRef = EA3A63F8F5766F8DD008B8D9;
+		};
+		90AC649A2C92656AC3EBBD5B = {
+			isa = PBXBuildFile;
+			fileRef = D172A0211E70DFA0E40A1C3D;
+		};
+		92CC5D8F516F7331A470087C = {
+			isa = PBXBuildFile;
+			fileRef = 92A85CAF931694047E343FCD;
+		};
+		94B7DFE0149D93D2421C2CF6 = {
+			isa = PBXBuildFile;
+			fileRef = 756211A0B34FDF45D721CB17;
+		};
+		9ACD3ADDA229BB2C92B43A9C = {
+			isa = PBXBuildFile;
+			fileRef = A44E4E43DA8E4CBB42E93F2D;
+		};
+		9C29DAC3AFE541174E00DB0E = {
+			isa = PBXBuildFile;
+			fileRef = 86AF7299C54F432B3775E360;
+		};
+		9C516126AF03A00E712AE12E = {
+			isa = PBXBuildFile;
+			fileRef = D18B17649F832B338F32DCD9;
+		};
+		9E29A5CACB56183103778BFA = {
+			isa = PBXBuildFile;
+			fileRef = 8CE2AD4592B2398288542059;
+		};
+		9E39FB8B5ED22A57493B6876 = {
+			isa = PBXBuildFile;
+			fileRef = 9FF4671003C4E04351DC2DCC;
+		};
+		A1A52D69E92E2EFDBCBE60DE = {
+			isa = PBXBuildFile;
+			fileRef = F514A1F71F8E00D8BD932969;
+		};
+		A2D888E2CE449836E4CC7C76 = {
+			isa = PBXBuildFile;
+			fileRef = A02A18480F1111E0BB7513EB;
+		};
+		A333E3D3B55AEDA451C5B2E4 = {
+			isa = PBXBuildFile;
+			fileRef = EE1EFE2CBEAAAC615F0D5EC0;
+		};
+		A4227E9E2E7C41D6AACC0862 = {
+			isa = PBXBuildFile;
+			fileRef = 37A391D9B54DC487D4BB1A6F;
+		};
+		A6339C48AC8AC931ADB01B2D = {
+			isa = PBXBuildFile;
+			fileRef = 43832BAC0C4CB6288214D901;
+		};
+		A66A7B1B498AA58F18F0526B = {
+			isa = PBXBuildFile;
+			fileRef = 0E4611E5B09CB65F2080A732;
+		};
+		A7C1030EF1EDC3B245528407 = {
+			isa = PBXBuildFile;
+			fileRef = BD0CE5DD48C2CC1386BDB99A;
+		};
+		A8971C643941388C932DA631 = {
+			isa = PBXBuildFile;
+			fileRef = F78D02882CE526C6B560B810;
+		};
+		A9F9851845DF6D1A475CC067 = {
+			isa = PBXBuildFile;
+			fileRef = 2A25EC1232CA30539969CCE6;
+		};
+		AA1E43434E6D51EBE86612B8 = {
+			isa = PBXBuildFile;
+			fileRef = CC85520B7467B734FCBA725F;
+		};
+		AAE5B473FBF3DE7466076430 = {
+			isa = PBXBuildFile;
+			fileRef = F0D1F1B7CCCA1DA0B45F69F0;
+		};
+		ACADD616F9EEA06FE62518EF = {
+			isa = PBXBuildFile;
+			fileRef = A19C0B6D8E076D1264544D16;
+		};
+		ACD71FA31ED8C5426090B7B4 = {
+			isa = PBXBuildFile;
+			fileRef = 2DC22AFD031040336138652C;
+		};
+		ACEC72F73F4A564406827589 = {
+			isa = PBXBuildFile;
+			fileRef = F492972A856763450D526331;
+		};
+		AD38C38EF19564DC6616D23D = {
+			isa = PBXBuildFile;
+			fileRef = 0267CF5733DA6ADA11E9B07C;
+		};
+		B1645D7FC1C60F44719FE0AB = {
+			isa = PBXBuildFile;
+			fileRef = C2610B356640CE3FA938F31B;
+		};
+		B240C5C54C2B4EB318C92E02 = {
+			isa = PBXBuildFile;
+			fileRef = F17FB45C298894790116B0F2;
+		};
+		B406FA3F4068BAF8C95DCAFD = {
+			isa = PBXBuildFile;
+			fileRef = 3E0D4DEF26290588C6A9CFA1;
+		};
+		B5D6642D6AD6FD03C20905E2 = {
+			isa = PBXBuildFile;
+			fileRef = FCB11D1EDCCBFEA3D6E3A4A1;
+		};
+		B662EB4CC3AE245196937C8E = {
+			isa = PBXBuildFile;
+			fileRef = 023E904E202A6141BCAD4215;
+		};
+		B9E929B238A8724E875B5551 = {
+			isa = PBXBuildFile;
+			fileRef = 2B4A02052C92770BE685EEBF;
+		};
+		BC2CD146C8A4ABFDAEC341B2 = {
+			isa = PBXBuildFile;
+			fileRef = 286D7B8F35630C69EE33D59A;
+		};
+		BE26B0F967B4D73A727DCF1B = {
+			isa = PBXBuildFile;
+			fileRef = 47620C26A59EB59E7C049992;
+		};
+		BE334EDEA13D3D09DD877273 = {
+			isa = PBXBuildFile;
+			fileRef = E6C422FCE995CE4844A52CD3;
+		};
+		BE3E75706D347F1074C4F91B = {
+			isa = PBXBuildFile;
+			fileRef = 5BCF73B6448F38C6B0F796D8;
+		};
+		BF14706CD343F87D3132EBFB = {
+			isa = PBXBuildFile;
+			fileRef = 164F69E93DB3EA9EE948A0AC;
+		};
+		BFA7EF464BD1FC78033F72B9 = {
+			isa = PBXBuildFile;
+			fileRef = 3240717CFC0BCFED6B3D37E7;
+		};
+		C07629C406CBF5725F949B49 = {
+			isa = PBXBuildFile;
+			fileRef = EE3FDEE60127DB259355E5C4;
+		};
+		C10E9B564BCA7ABE79DB9E8B = {
+			isa = PBXBuildFile;
+			fileRef = 1E5DE3A1E0B1428BB4390189;
+		};
+		C3DBE303956D55FB190216F9 = {
+			isa = PBXBuildFile;
+			fileRef = 8A979861F352AECE5C8C845A;
+		};
+		C48903FC18777BE5644BC290 = {
+			isa = PBXBuildFile;
+			fileRef = 6AA9F6592C730D1DBDE87284;
+		};
+		C6FE0235657BB05B2CF2C121 = {
+			isa = PBXBuildFile;
+			fileRef = 719313F0CDEB47C7A1ACFEF8;
+		};
+		C7F9F300B8D031BC755A2748 = {
+			isa = PBXBuildFile;
+			fileRef = CCE517A8BBFA686186B76A1C;
+		};
+		C81C1417346727664D13DD6F = {
+			isa = PBXBuildFile;
+			fileRef = 768A32C81E4DCF4803DD90A5;
+		};
+		C926F68E3396E6010046421B = {
+			isa = PBXBuildFile;
+			fileRef = 72AF05DEF7D1C471850021BB;
+		};
+		CA4415E027CC3551BA199022 = {
+			isa = PBXBuildFile;
+			fileRef = C8E41C95B5E349E6E0050BCA;
+		};
+		CB9A7DC42EE90666C7472694 = {
+			isa = PBXBuildFile;
+			fileRef = D72944C7B3FC61E07D89AB3C;
+		};
+		CC5CF3BB060DDFBCE5D11F2E = {
+			isa = PBXBuildFile;
+			fileRef = E0BC4F439051DEC68C1D3473;
+		};
+		CCC1EAD60103DF634A9AB2ED = {
+			isa = PBXBuildFile;
+			fileRef = 2EB611B717C5A6C3D93DD6E8;
+		};
+		CD0D879B9364D43D1B8543E3 = {
+			isa = PBXBuildFile;
+			fileRef = 7F33979D3843DA2D2177EEEB;
+		};
+		CDAAD0B5E1DC9717FB09CE4D = {
+			isa = PBXBuildFile;
+			fileRef = BED85C7540717CD6211B9FD2;
+		};
+		CE023CB4CE5A7ACAB041E82A = {
+			isa = PBXBuildFile;
+			fileRef = 8B4363916F4C2D08E1351998;
+		};
+		CE32E0C73A346274AD3B4047 = {
+			isa = PBXBuildFile;
+			fileRef = 00D029E9FF3760810913464A;
+		};
+		D0933037FD43967B37CEDFFC = {
+			isa = PBXBuildFile;
+			fileRef = BB80CE9552B4D750985ABC45;
+		};
+		D0E5B5437B43BF624C6820F1 = {
+			isa = PBXBuildFile;
+			fileRef = 6E2A32C12F456C03AC535F27;
+		};
+		D1EDD920C00FFCEB1D39575D = {
+			isa = PBXBuildFile;
+			fileRef = 9E60A47322AD96900F298284;
+		};
+		D20ED6D3236D4318EC7DD98A = {
+			isa = PBXBuildFile;
+			fileRef = BDF33CCCC74E8AB5EFFAE944;
+		};
+		D24632840C9D374DB50BEA27 = {
+			isa = PBXBuildFile;
+			fileRef = 338C6BEADA50896CBA39357E;
+		};
+		D84882754128B0A5679FAE34 = {
+			isa = PBXBuildFile;
+			fileRef = 278187EC95C3454B348A2B98;
+		};
+		D85F28D5FB325E4B9E59AB5E = {
+			isa = PBXBuildFile;
+			fileRef = 871FFBB2679C3FB08A2879A4;
+		};
+		D8AE0037A71B22B8E6035801 = {
+			isa = PBXBuildFile;
+			fileRef = DEEDF841B13833823856A529;
+		};
+		D9AFE9CFD12EC1A3499E17CE = {
+			isa = PBXBuildFile;
+			fileRef = 58693738C2DAAF818A03DE4A;
+		};
+		DB060D6B7B7E0D77BF982205 = {
+			isa = PBXBuildFile;
+			fileRef = 782A803C67DE5FA2AC1FCAA3;
+		};
+		DBC087219562E540E9FF0787 = {
+			isa = PBXBuildFile;
+			fileRef = 3413A664A24DA514182E780F;
+		};
+		DC75C52EDE68080BA60E9792 = {
+			isa = PBXBuildFile;
+			fileRef = 40DB065C65254630904C3CEC;
+		};
+		E198A6EB0F722898678E1959 = {
+			isa = PBXBuildFile;
+			fileRef = 4CD3CB6D6773BD1FC7523B87;
+		};
+		E1BE734D31CD4B6CB9A8049D = {
+			isa = PBXBuildFile;
+			fileRef = C2CE765CBB2613EA7A80C6DA;
+		};
+		E58A6ABB923C7372903ACCBF = {
+			isa = PBXBuildFile;
+			fileRef = 5F304118636714E504E26FF7;
+		};
+		E5EBCA6D11DAE2B556FB4F65 = {
+			isa = PBXBuildFile;
+			fileRef = F9CADDA548DCD13E91471761;
+		};
+		E85B76A9145B23E59912A632 = {
+			isa = PBXBuildFile;
+			fileRef = B5D11590511C645F73FE7845;
+		};
+		E866C0DA34C80871B567BF0C = {
+			isa = PBXBuildFile;
+			fileRef = AE23201F63FAE801BA0709FD;
+		};
+		E925F61244F154111761D690 = {
+			isa = PBXBuildFile;
+			fileRef = E24C5A5957E1C45B2B32AFE7;
+		};
+		E9941E7AAA5CF2ED97E8E24E = {
+			isa = PBXBuildFile;
+			fileRef = 60FDA9D70D401B03DBF8095E;
+		};
+		EBE3075C4769444CE475C5E5 = {
+			isa = PBXBuildFile;
+			fileRef = 001D2D955BBEB67A6D0C6E6D;
+		};
+		EE3A80B77AA8901C481B2153 = {
+			isa = PBXBuildFile;
+			fileRef = 1A182C7539CE2C9D7F9257FA;
+		};
+		EF4797D6F3DEF30E8FA22D4F = {
+			isa = PBXBuildFile;
+			fileRef = CFDC3078426661B993F62454;
+		};
+		F127C5A6EEC4C386C2DE62B5 = {
+			isa = PBXBuildFile;
+			fileRef = 4DD4CA87331B0E61D44D22D9;
+		};
+		F231621D861C93A916EF70EB = {
+			isa = PBXBuildFile;
+			fileRef = E07C8D09A24BCDFC55D5B2FC;
+		};
+		F5D6A8CF59D05106B9ECF95A = {
+			isa = PBXBuildFile;
+			fileRef = BF1F5AD3C6BBD15CBF9311A2;
+		};
+		F61A4C21BE9ED5C8316310F7 = {
+			isa = PBXBuildFile;
+			fileRef = 00FBD7698B805B2FCD27AE63;
+		};
+		F62C533628574EF2811CE458 = {
+			isa = PBXBuildFile;
+			fileRef = FB86253EE7C957EB38C3039E;
+		};
+		F790790BB909FB3437EC6F9D = {
+			isa = PBXBuildFile;
+			fileRef = D43450A26EE31814C9954544;
+		};
+		F7F911B8C8D7DB8B3D2007C7 = {
+			isa = PBXBuildFile;
+			fileRef = 088589A735CFEBA9E762D29C;
+		};
+		F861F3966566EC11DB570194 = {
+			isa = PBXBuildFile;
+			fileRef = 77310F1C23CB63B3BD154890;
+		};
+		F8795C3EDD9DF392DDBDA693 = {
+			isa = PBXBuildFile;
+			fileRef = 44522606464EF0B33FA7545A;
+		};
+		F98FBECB20C2908029B5BAF6 = {
+			isa = PBXBuildFile;
+			fileRef = 031E267C98F9E14496A4AC87;
+		};
+		F9F12247A550332B86757984 = {
+			isa = PBXBuildFile;
+			fileRef = 4ECDF801F7E894AE4D6EBCE8;
+		};
+		FBAB269408CE7A96F014966E = {
+			isa = PBXBuildFile;
+			fileRef = BC6584D7A751144E878F76F6;
+		};
+		FDAF5D7755FFAA8F16A6F44D = {
+			isa = PBXBuildFile;
+			fileRef = AA670AE41A0FBC465F4B0256;
+		};
+		FDB4B4F10ED6CCE2CB91AB9F = {
+			isa = PBXBuildFile;
+			fileRef = 65FA4819184B5C39AC051CDC;
+		};
+		FE354D257E8848A160832DA5 = {
+			isa = PBXBuildFile;
+			fileRef = 2919FFF36E5419FA424E3DCA;
+		};
+		FF7F36CC4BECC21F2FC1E31E = {
+			isa = PBXBuildFile;
+			fileRef = C39DC33027904EE5B0DF731F;
+		};
+		FFA8C780400C90CC2C912770 = {
+			isa = PBXBuildFile;
+			fileRef = 846577CABD3276F422F0B108;
+		};
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		248A42A7D9DBB9A6F874D42B = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 935399A30E929746A5CF610A;
+			proxyType = 1;
+			remoteGlobalIDString = B42DB2631150124BB010C446;
+			remoteInfo = "Pods-MBDataEnvironment";
+		};
+		266EC776F574D478A3A57DA3 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 935399A30E929746A5CF610A;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1D262218909735543B71BE;
+			remoteInfo = "Pods-RaptureXML@Gilt";
+		};
+		33F232C55E2822751DD4DF09 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 935399A30E929746A5CF610A;
+			proxyType = 1;
+			remoteGlobalIDString = D1B8D8A22C9B12A662D877AA;
+			remoteInfo = "Pods-MBToolbox";
+		};
+		73265D01EA277142FE677CCA = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 935399A30E929746A5CF610A;
+			proxyType = 1;
+			remoteGlobalIDString = D1B8D8A22C9B12A662D877AA;
+			remoteInfo = "Pods-MBToolbox";
+		};
+		C6A3CD54F444CB7695086DAE = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 935399A30E929746A5CF610A;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1D262218909735543B71BE;
+			remoteInfo = "Pods-RaptureXML@Gilt";
+		};
+		F5EDF7ACF2BD25D33D9E9BA9 = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 935399A30E929746A5CF610A;
+			proxyType = 1;
+			remoteGlobalIDString = 554FC52A7F38E72D5DB1BA8D;
+			remoteInfo = "Pods-MBDataEnvironment-MBDataEnvironment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001D2D955BBEB67A6D0C6E6D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLEqualityTestToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLEqualityTestToken.m";
+			sourceTree = "<group>";
+		};
+		00D029E9FF3760810913464A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBRuntime.h;
+			path = Code/Common/MBRuntime.h;
+			sourceTree = "<group>";
+		};
+		00FBD7698B805B2FCD27AE63 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLIgnorableWhitespaceToken.m;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLIgnorableWhitespaceToken.m;
+			sourceTree = "<group>";
+		};
+		023E904E202A6141BCAD4215 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBStringConversions.h;
+			path = Code/TypeConversion/MBStringConversions.h;
+			sourceTree = "<group>";
+		};
+		0267CF5733DA6ADA11E9B07C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLLessThanTestToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLLessThanTestToken.h";
+			sourceTree = "<group>";
+		};
+		031E267C98F9E14496A4AC87 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBExpressionGrammar.h;
+			path = Code/ExpressionEngine/Private/MBExpressionGrammar.h;
+			sourceTree = "<group>";
+		};
+		03319755D06EF2B9E6E47D4B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = Pods.release.xcconfig;
+			sourceTree = "<group>";
+		};
+		0394B94256EF80428B9D225C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBFilesystemOperations.m;
+			path = Code/Operations/MBFilesystemOperations.m;
+			sourceTree = "<group>";
+		};
+		03C1775B19F44037899C84D1 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBModuleLog.h;
+			path = Code/Module/MBModuleLog.h;
+			sourceTree = "<group>";
+		};
+		068BCDF8A187776B8084AD7C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLFunction.h;
+			path = Code/Functions/MBMLFunction.h;
+			sourceTree = "<group>";
+		};
+		074C4C8497C4BFA2B154EF44 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLGroupingToken.m;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLGroupingToken.m;
+			sourceTree = "<group>";
+		};
+		088589A735CFEBA9E762D29C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLAdditionOperatorToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Math/MBMLAdditionOperatorToken.h";
+			sourceTree = "<group>";
+		};
+		09699269C34D74692B8EDA0E = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = RXMLElement.h;
+			path = RaptureXML/RXMLElement.h;
+			sourceTree = "<group>";
+		};
+		0ADD0EAAA02F1A6F2513F4CE = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLMultiplicationOperatorToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Math/MBMLMultiplicationOperatorToken.h";
+			sourceTree = "<group>";
+		};
+		0C26FD417FDF0FBECD3D504C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = Pods.debug.xcconfig;
+			sourceTree = "<group>";
+		};
+		0E4611E5B09CB65F2080A732 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBAvailability.h;
+			path = Code/Common/MBAvailability.h;
+			sourceTree = "<group>";
+		};
+		13D01B2B6D2851AA3C80B0BA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLMathFunctions.h;
+			path = Code/Functions/Implementation/MBMLMathFunctions.h;
+			sourceTree = "<group>";
+		};
+		157C2A8AEAF021B8DBAB5492 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "Pods-MBDataEnvironment-prefix.pch";
+			sourceTree = "<group>";
+		};
+		164F69E93DB3EA9EE948A0AC = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBRegexCache.m;
+			path = Code/Regex/MBRegexCache.m;
+			sourceTree = "<group>";
+		};
+		1A182C7539CE2C9D7F9257FA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBFieldListFormatter.m;
+			path = Code/Formatting/MBFieldListFormatter.m;
+			sourceTree = "<group>";
+		};
+		1C241DBA0A0752A7DD829DF6 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBModule.h;
+			path = Code/Module/MBModule.h;
+			sourceTree = "<group>";
+		};
+		1E5DE3A1E0B1428BB4390189 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBFilesystemOperations.h;
+			path = Code/Operations/MBFilesystemOperations.h;
+			sourceTree = "<group>";
+		};
+		21A683C5E6B92EFAA87C1B13 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBConcurrentReadWriteCoordinator.h;
+			path = Code/Concurrency/MBConcurrentReadWriteCoordinator.h;
+			sourceTree = "<group>";
+		};
+		278187EC95C3454B348A2B98 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLObjectSubreferenceToken.m;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLObjectSubreferenceToken.m;
+			sourceTree = "<group>";
+		};
+		286D7B8F35630C69EE33D59A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBDataEnvironmentModule.m;
+			path = Code/Module/MBDataEnvironmentModule.m;
+			sourceTree = "<group>";
+		};
+		28A8B915B39C5464B29E6925 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLDateFunctions.h;
+			path = Code/Functions/Implementation/MBMLDateFunctions.h;
+			sourceTree = "<group>";
+		};
+		28E2CA40FD4BE345BFDB0683 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "Pods-RaptureXML@Gilt-prefix.pch";
+			sourceTree = "<group>";
+		};
+		2919FFF36E5419FA424E3DCA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBFilesystemCache.m;
+			path = Code/Caching/MBFilesystemCache.m;
+			sourceTree = "<group>";
+		};
+		2A25EC1232CA30539969CCE6 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLFunction.m;
+			path = Code/Functions/MBMLFunction.m;
+			sourceTree = "<group>";
+		};
+		2AE6DE3711BA0D806ABE9BF2 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLDivisionOperatorToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Math/MBMLDivisionOperatorToken.m";
+			sourceTree = "<group>";
+		};
+		2B4A02052C92770BE685EEBF = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBExpressionGrammar.m;
+			path = Code/ExpressionEngine/Private/MBExpressionGrammar.m;
+			sourceTree = "<group>";
+		};
+		2BA1699DA0C3EE3760F57FBF = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLEncodingFunctions.m;
+			path = Code/Functions/Implementation/MBMLEncodingFunctions.m;
+			sourceTree = "<group>";
+		};
+		2DB5E2C8C0569EEABC2489B4 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLDebugFunctions.m;
+			path = Code/Functions/Implementation/MBMLDebugFunctions.m;
+			sourceTree = "<group>";
+		};
+		2DC22AFD031040336138652C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBExpressionError.h;
+			path = Code/ExpressionEngine/MBExpressionError.h;
+			sourceTree = "<group>";
+		};
+		2DC238AFE3B897378F081820 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLResourceFunctions.m;
+			path = Code/Functions/Implementation/MBMLResourceFunctions.m;
+			sourceTree = "<group>";
+		};
+		2DE23F34DA93011E598A377B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLMathExpressionToken.h;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLMathExpressionToken.h;
+			sourceTree = "<group>";
+		};
+		2EB611B717C5A6C3D93DD6E8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "NSString+MBRegex.h";
+			path = "Code/Regex/NSString+MBRegex.h";
+			sourceTree = "<group>";
+		};
+		2F077821830E8F8BDE552622 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-MBDataEnvironment.xcconfig";
+			sourceTree = "<group>";
+		};
+		30B4743B5F80632EEADFA8EE = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLFunctionCallToken.m;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLFunctionCallToken.m;
+			sourceTree = "<group>";
+		};
+		3240717CFC0BCFED6B3D37E7 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMessageDigest.h;
+			path = Code/MessageDigest/MBMessageDigest.h;
+			sourceTree = "<group>";
+		};
+		338C6BEADA50896CBA39357E = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLBooleanOrOperatorToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLBooleanOrOperatorToken.m";
+			sourceTree = "<group>";
+		};
+		3413A664A24DA514182E780F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLInequalityTestToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLInequalityTestToken.h";
+			sourceTree = "<group>";
+		};
+		379116BDBEF8C107B2DB991B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-MBToolbox.xcconfig";
+			sourceTree = "<group>";
+		};
+		37A391D9B54DC487D4BB1A6F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLBooleanGroupingToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLBooleanGroupingToken.m";
+			sourceTree = "<group>";
+		};
+		3800019FAA683C8B2DB76C2D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLEscapeSequenceToken.m;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLEscapeSequenceToken.m;
+			sourceTree = "<group>";
+		};
+		3E0D4DEF26290588C6A9CFA1 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBThreadLocalStorage.m;
+			path = Code/Concurrency/MBThreadLocalStorage.m;
+			sourceTree = "<group>";
+		};
+		40DB065C65254630904C3CEC = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLFileFunctions.m;
+			path = Code/Functions/Implementation/MBMLFileFunctions.m;
+			sourceTree = "<group>";
+		};
+		41BDB4F7BC97581790936FDB = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLVariableReferenceToken.m;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLVariableReferenceToken.m;
+			sourceTree = "<group>";
+		};
+		41CD7E05A789BC53D260C0AC = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBThreadsafeCache.m;
+			path = Code/Caching/MBThreadsafeCache.m;
+			sourceTree = "<group>";
+		};
+		4302144C8454E0ECED4616EB = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLFunctionCallToken.h;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLFunctionCallToken.h;
+			sourceTree = "<group>";
+		};
+		43832BAC0C4CB6288214D901 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBExpressionError.m;
+			path = Code/ExpressionEngine/MBExpressionError.m;
+			sourceTree = "<group>";
+		};
+		440CD3A82E3831AFC339C23B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "NSData+MBMessageDigest.m";
+			path = "Code/MessageDigest/NSData+MBMessageDigest.m";
+			sourceTree = "<group>";
+		};
+		44522606464EF0B33FA7545A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBModuleLog.m;
+			path = Code/Module/MBModuleLog.m;
+			sourceTree = "<group>";
+		};
+		4501A33E52396F737CE678E3 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLMathFunctions.m;
+			path = Code/Functions/Implementation/MBMLMathFunctions.m;
+			sourceTree = "<group>";
+		};
+		454B07C4DFE8C91769DEEAFD = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBExpressionCache.h;
+			path = Code/ExpressionEngine/MBExpressionCache.h;
+			sourceTree = "<group>";
+		};
+		45CFB423A042468B42AA9682 = {
+			isa = PBXFileReference;
+			explicitFileType = archive.ar;
+			includeInIndex = 0;
+			name = "libPods-MBDataEnvironment.a";
+			path = "libPods-MBDataEnvironment.a";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		46CF3E0BF55E1D76EB99B708 = {
+			isa = PBXFileReference;
+			explicitFileType = archive.ar;
+			includeInIndex = 0;
+			name = libPods.a;
+			path = libPods.a;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		47620C26A59EB59E7C049992 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "NSString+MBIndentation.h";
+			path = "Code/Strings/NSString+MBIndentation.h";
+			sourceTree = "<group>";
+		};
+		478DB0EB5E4C35A14D205EF9 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLParseToken.m;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLParseToken.m;
+			sourceTree = "<group>";
+		};
+		49694C434147E4E207938546 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text;
+			path = "Pods-acknowledgements.markdown";
+			sourceTree = "<group>";
+		};
+		4AC72C4C92569DD91153DA3F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLMultiplicationOperatorToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Math/MBMLMultiplicationOperatorToken.m";
+			sourceTree = "<group>";
+		};
+		4CD3CB6D6773BD1FC7523B87 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLDivisionOperatorToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Math/MBMLDivisionOperatorToken.h";
+			sourceTree = "<group>";
+		};
+		4DD4CA87331B0E61D44D22D9 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLMathOperatorToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Math/MBMLMathOperatorToken.m";
+			sourceTree = "<group>";
+		};
+		4ECDF801F7E894AE4D6EBCE8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBExpressionTokenizer.h;
+			path = Code/ExpressionEngine/Private/MBExpressionTokenizer.h;
+			sourceTree = "<group>";
+		};
+		4EE1F40D1599AC3340749413 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLBooleanNegationToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLBooleanNegationToken.m";
+			sourceTree = "<group>";
+		};
+		4FAB285A6B9F006E267F4398 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "MBEvents+DataLoading.m";
+			path = "Code/Events/MBEvents+DataLoading.m";
+			sourceTree = "<group>";
+		};
+		536243F770CCEBBA1BDFE735 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBFieldListFormatter.h;
+			path = Code/Formatting/MBFieldListFormatter.h;
+			sourceTree = "<group>";
+		};
+		53DA6B15AD0C27F1FEA82562 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBService.h;
+			path = Code/Services/MBService.h;
+			sourceTree = "<group>";
+		};
+		554E2948B8DE36EAD665058C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = RXMLElement.m;
+			path = RaptureXML/RXMLElement.m;
+			sourceTree = "<group>";
+		};
+		565129175808BF02F33A2E19 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.script.sh;
+			path = "Pods-resources.sh";
+			sourceTree = "<group>";
+		};
+		576257D0E221A7903A3D542B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLResourceFunctions.h;
+			path = Code/Functions/Implementation/MBMLResourceFunctions.h;
+			sourceTree = "<group>";
+		};
+		578F20465F23E1D9D5744414 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			name = MBDataEnvironment.bundle;
+			path = MBDataEnvironment.bundle;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		58693738C2DAAF818A03DE4A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBOperationQueue.h;
+			path = Code/Operations/MBOperationQueue.h;
+			sourceTree = "<group>";
+		};
+		59C7CE55F1F6433FFE741A99 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLParameterGroupingToken.m;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLParameterGroupingToken.m;
+			sourceTree = "<group>";
+		};
+		5BCF73B6448F38C6B0F796D8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLGreaterThanEqualsTestToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLGreaterThanEqualsTestToken.h";
+			sourceTree = "<group>";
+		};
+		5D4698D1A6275ED43227C559 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBFormattedDescriptionObject.h;
+			path = Code/Formatting/MBFormattedDescriptionObject.h;
+			sourceTree = "<group>";
+		};
+		5F304118636714E504E26FF7 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "NSData+MBMessageDigest.h";
+			path = "Code/MessageDigest/NSData+MBMessageDigest.h";
+			sourceTree = "<group>";
+		};
+		60A31FB1F20CF76AD621393B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBExpressionTokenizer.m;
+			path = Code/ExpressionEngine/Private/MBExpressionTokenizer.m;
+			sourceTree = "<group>";
+		};
+		60FDA9D70D401B03DBF8095E = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLCollectionFunctions.h;
+			path = Code/Functions/Implementation/MBMLCollectionFunctions.h;
+			sourceTree = "<group>";
+		};
+		61C80FBE93ADD7BB206C2490 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBDebug.h;
+			path = Code/Common/MBDebug.h;
+			sourceTree = "<group>";
+		};
+		64F30AED2B06F1D61AC6ABB8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "Pods-MBToolbox-prefix.pch";
+			sourceTree = "<group>";
+		};
+		65FA4819184B5C39AC051CDC = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBStringConversions.m;
+			path = Code/TypeConversion/MBStringConversions.m;
+			sourceTree = "<group>";
+		};
+		660E5C1FC2E8BB6CB041FBB5 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "NSData+MBStringConversion.h";
+			path = "Code/Strings/NSData+MBStringConversion.h";
+			sourceTree = "<group>";
+		};
+		66BA44423744FE003AA38568 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLWhitespaceToken.h;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLWhitespaceToken.h;
+			sourceTree = "<group>";
+		};
+		685FE8CD37A7BDD828423B54 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			path = "Pods-environment.h";
+			sourceTree = "<group>";
+		};
+		6AA9F6592C730D1DBDE87284 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLInequalityTestToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLInequalityTestToken.m";
+			sourceTree = "<group>";
+		};
+		6AAD64533565B23F07B0A3BA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			name = MBDataEnvironmentModule.xml;
+			path = Resources/MBDataEnvironmentModule.xml;
+			sourceTree = "<group>";
+		};
+		6CDAA9D684B8E18E238BD2BF = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBVariableDeclaration.m;
+			path = Code/VariableSpace/MBVariableDeclaration.m;
+			sourceTree = "<group>";
+		};
+		6DA8C4DC868EBF0FF0FDB788 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-MBToolbox-Private.xcconfig";
+			sourceTree = "<group>";
+		};
+		6DAE50AE9ADC87F5A0E9A866 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBThreadLocalStorage.h;
+			path = Code/Concurrency/MBThreadLocalStorage.h;
+			sourceTree = "<group>";
+		};
+		6E2A32C12F456C03AC535F27 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLEscapeSequenceToken.h;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLEscapeSequenceToken.h;
+			sourceTree = "<group>";
+		};
+		719313F0CDEB47C7A1ACFEF8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBAttributeValidator.m;
+			path = Code/DataModel/MBAttributeValidator.m;
+			sourceTree = "<group>";
+		};
+		72AF05DEF7D1C471850021BB = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLEnvironmentFunctions.m;
+			path = Code/Functions/Implementation/MBMLEnvironmentFunctions.m;
+			sourceTree = "<group>";
+		};
+		73EECF4B3E3EEAB719CFC785 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBExpressionExtensions.h;
+			path = Code/ExpressionEngine/MBExpressionExtensions.h;
+			sourceTree = "<group>";
+		};
+		74F45044D6BC09175E128B2B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLMathGroupingToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Math/MBMLMathGroupingToken.h";
+			sourceTree = "<group>";
+		};
+		756211A0B34FDF45D721CB17 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBEnvironmentLoader.h;
+			path = Code/Environment/MBEnvironmentLoader.h;
+			sourceTree = "<group>";
+		};
+		768A32C81E4DCF4803DD90A5 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLEncodingFunctions.h;
+			path = Code/Functions/Implementation/MBMLEncodingFunctions.h;
+			sourceTree = "<group>";
+		};
+		77310F1C23CB63B3BD154890 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "MBEvents+DataLoading.h";
+			path = "Code/Events/MBEvents+DataLoading.h";
+			sourceTree = "<group>";
+		};
+		782A803C67DE5FA2AC1FCAA3 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLBooleanGroupingToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLBooleanGroupingToken.h";
+			sourceTree = "<group>";
+		};
+		7D0E332AC678EFD877BA1AC3 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLAdditionOperatorToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Math/MBMLAdditionOperatorToken.m";
+			sourceTree = "<group>";
+		};
+		7D333519B0EDDAB5B048EE4C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLParameterGroupingToken.h;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLParameterGroupingToken.h;
+			sourceTree = "<group>";
+		};
+		7D8AAD9B2FE623EAFCE2A580 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLNumericLiteralToken.h;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLNumericLiteralToken.h;
+			sourceTree = "<group>";
+		};
+		7F33979D3843DA2D2177EEEB = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLLogicFunctions.m;
+			path = Code/Functions/Implementation/MBMLLogicFunctions.m;
+			sourceTree = "<group>";
+		};
+		800B994E22C2CCCC827DA79C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLDebugFunctions.h;
+			path = Code/Functions/Implementation/MBMLDebugFunctions.h;
+			sourceTree = "<group>";
+		};
+		846577CABD3276F422F0B108 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "MBFilesystemCache+Subclassing.h";
+			path = "Code/Caching/MBFilesystemCache+Subclassing.h";
+			sourceTree = "<group>";
+		};
+		8630DF297B95600B9623D1DC = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBDataModel.m;
+			path = Code/DataModel/MBDataModel.m;
+			sourceTree = "<group>";
+		};
+		86AF7299C54F432B3775E360 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLWhitespaceToken.m;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLWhitespaceToken.m;
+			sourceTree = "<group>";
+		};
+		871FFBB2679C3FB08A2879A4 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "NSString+MBIndentation.m";
+			path = "Code/Strings/NSString+MBIndentation.m";
+			sourceTree = "<group>";
+		};
+		87632A2A320A7845ADF28292 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBConcurrentReadWriteCoordinator.m;
+			path = Code/Concurrency/MBConcurrentReadWriteCoordinator.m;
+			sourceTree = "<group>";
+		};
+		876DD7E0E8E4114235373633 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLBooleanOperatorToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLBooleanOperatorToken.h";
+			sourceTree = "<group>";
+		};
+		8A0C10EC5118EC855F846A51 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "Pods-dummy.m";
+			sourceTree = "<group>";
+		};
+		8A979861F352AECE5C8C845A = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Security.framework;
+			path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Security.framework;
+			sourceTree = DEVELOPER_DIR;
+		};
+		8B080DB65009A8B91C73D963 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLFileFunctions.h;
+			path = Code/Functions/Implementation/MBMLFileFunctions.h;
+			sourceTree = "<group>";
+		};
+		8B168F2895CE42E8D8F33158 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLLessThanEqualsTestToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLLessThanEqualsTestToken.m";
+			sourceTree = "<group>";
+		};
+		8B4363916F4C2D08E1351998 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBRoundedRectTools.h;
+			path = Code/Graphics/MBRoundedRectTools.h;
+			sourceTree = "<group>";
+		};
+		8CAE13E916C645D6B02DE006 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBDataEnvironment.h;
+			path = Code/MBDataEnvironment.h;
+			sourceTree = "<group>";
+		};
+		8CE2AD4592B2398288542059 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLEnvironmentFunctions.h;
+			path = Code/Functions/Implementation/MBMLEnvironmentFunctions.h;
+			sourceTree = "<group>";
+		};
+		8F02408452060659D6804392 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "NSError+MBToolbox.m";
+			path = "Code/Error/NSError+MBToolbox.m";
+			sourceTree = "<group>";
+		};
+		8FF1A17980F63144F3BF843E = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLMathOperatorToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Math/MBMLMathOperatorToken.h";
+			sourceTree = "<group>";
+		};
+		92A85CAF931694047E343FCD = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBOperationQueue.m;
+			path = Code/Operations/MBOperationQueue.m;
+			sourceTree = "<group>";
+		};
+		9371159555E3BE749B0CA76C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLStringFunctions.m;
+			path = Code/Functions/Implementation/MBMLStringFunctions.m;
+			sourceTree = "<group>";
+		};
+		94BDCE534C3320442AC3B4A8 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBVariableDeclaration.h;
+			path = Code/VariableSpace/MBVariableDeclaration.h;
+			sourceTree = "<group>";
+		};
+		9506A18E453F46EA893DB9C2 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBScopedVariables.m;
+			path = Code/VariableSpace/MBScopedVariables.m;
+			sourceTree = "<group>";
+		};
+		951A9D06012AE1F70CDCD1CD = {
+			isa = PBXFileReference;
+			explicitFileType = archive.ar;
+			includeInIndex = 0;
+			name = "libPods-MBToolbox.a";
+			path = "libPods-MBToolbox.a";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9782083175341843A8F13242 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLModuloOperatorToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Math/MBMLModuloOperatorToken.h";
+			sourceTree = "<group>";
+		};
+		97CE985E445AE33EC3E81B3B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLGreaterThanEqualsTestToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLGreaterThanEqualsTestToken.m";
+			sourceTree = "<group>";
+		};
+		98A32F21395250064ACB0194 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBCacheOperations.m;
+			path = Code/Caching/MBCacheOperations.m;
+			sourceTree = "<group>";
+		};
+		9A7E4DC4ACC216E881B47C81 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBRegexCache.h;
+			path = Code/Regex/MBRegexCache.h;
+			sourceTree = "<group>";
+		};
+		9B8D69BE84330CC4F8CE9D9D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBRoundedRectTools.m;
+			path = Code/Graphics/MBRoundedRectTools.m;
+			sourceTree = "<group>";
+		};
+		9D2A9645F10D420FEC78AB38 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLLogicFunctions.h;
+			path = Code/Functions/Implementation/MBMLLogicFunctions.h;
+			sourceTree = "<group>";
+		};
+		9DF0658B211E4F78B08F0C0A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBVariableSpace.m;
+			path = Code/VariableSpace/MBVariableSpace.m;
+			sourceTree = "<group>";
+		};
+		9E60A47322AD96900F298284 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBAttributeValidator.h;
+			path = Code/DataModel/MBAttributeValidator.h;
+			sourceTree = "<group>";
+		};
+		9ECE8F10D5160E9949269C03 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLObjectReferenceToken.h;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLObjectReferenceToken.h;
+			sourceTree = "<group>";
+		};
+		9FF4671003C4E04351DC2DCC = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Cocoa.framework;
+			sourceTree = DEVELOPER_DIR;
+		};
+		A02A18480F1111E0BB7513EB = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "NSData+MBStringConversion.m";
+			path = "Code/Strings/NSData+MBStringConversion.m";
+			sourceTree = "<group>";
+		};
+		A19C0B6D8E076D1264544D16 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLCollectionFunctions.m;
+			path = Code/Functions/Implementation/MBMLCollectionFunctions.m;
+			sourceTree = "<group>";
+		};
+		A44E4E43DA8E4CBB42E93F2D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLLiteralToken.h;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLLiteralToken.h;
+			sourceTree = "<group>";
+		};
+		A4EFFAD820D1D39D2BEBC758 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLRegexFunctions.m;
+			path = Code/Functions/Implementation/MBMLRegexFunctions.m;
+			sourceTree = "<group>";
+		};
+		A9DC5487DCBE5D13D46CCF4C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBDataModel.h;
+			path = Code/DataModel/MBDataModel.h;
+			sourceTree = "<group>";
+		};
+		AA670AE41A0FBC465F4B0256 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLParameterDelimiterToken.m;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLParameterDelimiterToken.m;
+			sourceTree = "<group>";
+		};
+		ABA47AC4FD01B77F6BFA321F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "MBExpressionCache+Internal.h";
+			path = "Code/ExpressionEngine/Private/MBExpressionCache+Internal.h";
+			sourceTree = "<group>";
+		};
+		AC9172DA5AE16AF0CFCF4F7B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLBooleanAndOperatorToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLBooleanAndOperatorToken.m";
+			sourceTree = "<group>";
+		};
+		AD8C02970728E4F79821B026 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMessageDigest.m;
+			path = Code/MessageDigest/MBMessageDigest.m;
+			sourceTree = "<group>";
+		};
+		AE23201F63FAE801BA0709FD = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLLessThanTestToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLLessThanTestToken.m";
+			sourceTree = "<group>";
+		};
+		B04CDFB52ADCAA703556AADA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLMathExpressionToken.m;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLMathExpressionToken.m;
+			sourceTree = "<group>";
+		};
+		B2828E30D72AABD6A5EC9638 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-RaptureXML@Gilt-Private.xcconfig";
+			sourceTree = "<group>";
+		};
+		B5AF9585019C7C7E43859E7F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLDataProcessingFunctions.m;
+			path = Code/Functions/Implementation/MBMLDataProcessingFunctions.m;
+			sourceTree = "<group>";
+		};
+		B5D11590511C645F73FE7845 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLObjectSubreferenceToken.h;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLObjectSubreferenceToken.h;
+			sourceTree = "<group>";
+		};
+		B61E85F7933750A1F4A63967 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLBooleanNegationToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLBooleanNegationToken.h";
+			sourceTree = "<group>";
+		};
+		B6B7330ECFCD76E26E548F32 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBStringFunctions.h;
+			path = Code/Strings/MBStringFunctions.h;
+			sourceTree = "<group>";
+		};
+		B7D35FC21B0BAEE954B10D95 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "Pods-MBToolbox-dummy.m";
+			sourceTree = "<group>";
+		};
+		B8FDECB87C012EB22C6B1057 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.plist.xml;
+			path = "Pods-acknowledgements.plist";
+			sourceTree = "<group>";
+		};
+		B9260577556B59A75EDEC19D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "NSString+MBRegex.m";
+			path = "Code/Regex/NSString+MBRegex.m";
+			sourceTree = "<group>";
+		};
+		B9CBD967C102BA17F3BB60F3 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBVariableSpace.h;
+			path = Code/VariableSpace/MBVariableSpace.h;
+			sourceTree = "<group>";
+		};
+		BB80CE9552B4D750985ABC45 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLVariableReferenceToken.h;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLVariableReferenceToken.h;
+			sourceTree = "<group>";
+		};
+		BC6584D7A751144E878F76F6 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "NSError+MBToolbox.h";
+			path = "Code/Error/NSError+MBToolbox.h";
+			sourceTree = "<group>";
+		};
+		BC9542A7DEDABC029B3E073F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBServiceManager.m;
+			path = Code/Services/MBServiceManager.m;
+			sourceTree = "<group>";
+		};
+		BD0CE5DD48C2CC1386BDB99A = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBDataEnvironmentModule.h;
+			path = Code/Module/MBDataEnvironmentModule.h;
+			sourceTree = "<group>";
+		};
+		BDF33CCCC74E8AB5EFFAE944 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBDataEnvironmentConstants.h;
+			path = Code/Module/MBDataEnvironmentConstants.h;
+			sourceTree = "<group>";
+		};
+		BED85C7540717CD6211B9FD2 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBBitmapPixelPlane.h;
+			path = Code/Graphics/MBBitmapPixelPlane.h;
+			sourceTree = "<group>";
+		};
+		BF123A72D5C874D94A08B2A4 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBFormattedDescriptionObject.m;
+			path = Code/Formatting/MBFormattedDescriptionObject.m;
+			sourceTree = "<group>";
+		};
+		BF1F5AD3C6BBD15CBF9311A2 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLDataProcessingFunctions.h;
+			path = Code/Functions/Implementation/MBMLDataProcessingFunctions.h;
+			sourceTree = "<group>";
+		};
+		BF40A86F9F18613A341A3A0E = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLRuntimeFunctions.h;
+			path = Code/Functions/Implementation/MBMLRuntimeFunctions.h;
+			sourceTree = "<group>";
+		};
+		BF5597C1818A0B62FAE797F0 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLParameterDelimiterToken.h;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLParameterDelimiterToken.h;
+			sourceTree = "<group>";
+		};
+		BFFCDFED9729B31BD0505E88 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBNetworkMonitor.h;
+			path = Code/Network/MBNetworkMonitor.h;
+			sourceTree = "<group>";
+		};
+		C18608E3BC3B4942CFB4D53C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLGreaterThanTestToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLGreaterThanTestToken.h";
+			sourceTree = "<group>";
+		};
+		C2610B356640CE3FA938F31B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBEvents.h;
+			path = Code/Events/MBEvents.h;
+			sourceTree = "<group>";
+		};
+		C2CE765CBB2613EA7A80C6DA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLBooleanOperatorToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLBooleanOperatorToken.m";
+			sourceTree = "<group>";
+		};
+		C39DC33027904EE5B0DF731F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLDateFunctions.m;
+			path = Code/Functions/Implementation/MBMLDateFunctions.m;
+			sourceTree = "<group>";
+		};
+		C424C35C17FF9DC3261C0F65 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLSubtractionOperatorToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Math/MBMLSubtractionOperatorToken.m";
+			sourceTree = "<group>";
+		};
+		C5EEE44517EEE18105EA8929 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLObjectReferenceToken.m;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLObjectReferenceToken.m;
+			sourceTree = "<group>";
+		};
+		C8E41C95B5E349E6E0050BCA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLStringFunctions.h;
+			path = Code/Functions/Implementation/MBMLStringFunctions.h;
+			sourceTree = "<group>";
+		};
+		CB4876F455855F473976D861 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBExpressionExtensions.m;
+			path = Code/ExpressionEngine/MBExpressionExtensions.m;
+			sourceTree = "<group>";
+		};
+		CB7173E0BCA6AC372808FF0C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBNetworkMonitor.m;
+			path = Code/Network/MBNetworkMonitor.m;
+			sourceTree = "<group>";
+		};
+		CC85520B7467B734FCBA725F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBFilesystemCache.h;
+			path = Code/Caching/MBFilesystemCache.h;
+			sourceTree = "<group>";
+		};
+		CCE517A8BBFA686186B76A1C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLLessThanEqualsTestToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLLessThanEqualsTestToken.h";
+			sourceTree = "<group>";
+		};
+		CFDC3078426661B993F62454 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "MBThreadsafeCache+Subclassing.h";
+			path = "Code/Caching/MBThreadsafeCache+Subclassing.h";
+			sourceTree = "<group>";
+		};
+		D172A0211E70DFA0E40A1C3D = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLGroupingToken.h;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLGroupingToken.h;
+			sourceTree = "<group>";
+		};
+		D18B17649F832B338F32DCD9 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBExpression.m;
+			path = Code/ExpressionEngine/MBExpression.m;
+			sourceTree = "<group>";
+		};
+		D43450A26EE31814C9954544 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "Pods-MBDataEnvironment-dummy.m";
+			sourceTree = "<group>";
+		};
+		D4457893497A18C21DDC2C33 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text;
+			name = Podfile;
+			path = ../Podfile;
+			sourceTree = SOURCE_ROOT;
+			xcLanguageSpecificationIdentifier = xcode.lang.ruby;
+		};
+		D56E4B267DD611FE85DEF617 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLModuloOperatorToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Math/MBMLModuloOperatorToken.m";
+			sourceTree = "<group>";
+		};
+		D60C6F33038E5ECCED5B134F = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLIgnorableWhitespaceToken.h;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLIgnorableWhitespaceToken.h;
+			sourceTree = "<group>";
+		};
+		D72944C7B3FC61E07D89AB3C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBEvents.m;
+			path = Code/Events/MBEvents.m;
+			sourceTree = "<group>";
+		};
+		D7BC799DC9B8E6BE9C19C0A1 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLBooleanAndOperatorToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLBooleanAndOperatorToken.h";
+			sourceTree = "<group>";
+		};
+		DB9A24BE930E1536EA555677 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBEnvironment.h;
+			path = Code/Environment/MBEnvironment.h;
+			sourceTree = "<group>";
+		};
+		DD9168A6E6E1232822D8B9A7 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBEnvironment.m;
+			path = Code/Environment/MBEnvironment.m;
+			sourceTree = "<group>";
+		};
+		DEEDF841B13833823856A529 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = "NSString+MBMessageDigest.m";
+			path = "Code/MessageDigest/NSString+MBMessageDigest.m";
+			sourceTree = "<group>";
+		};
+		E07C8D09A24BCDFC55D5B2FC = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLKeywordMatchingToken.h;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLKeywordMatchingToken.h;
+			sourceTree = "<group>";
+		};
+		E0BC4F439051DEC68C1D3473 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "MBExpression+Internal.h";
+			path = "Code/ExpressionEngine/Private/MBExpression+Internal.h";
+			sourceTree = "<group>";
+		};
+		E1C77CE36286ED6106931245 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBToolbox.h;
+			path = Code/MBToolbox.h;
+			sourceTree = "<group>";
+		};
+		E24C5A5957E1C45B2B32AFE7 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBAssert.h;
+			path = Code/Common/MBAssert.h;
+			sourceTree = "<group>";
+		};
+		E2DF58166763C545EE76730C = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLParseToken.h;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLParseToken.h;
+			sourceTree = "<group>";
+		};
+		E3BC6A6FFDDD7841D995FCFA = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBServiceManager.h;
+			path = Code/Services/MBServiceManager.h;
+			sourceTree = "<group>";
+		};
+		E53E7AF971C5769A5159395B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLRuntimeFunctions.m;
+			path = Code/Functions/Implementation/MBMLRuntimeFunctions.m;
+			sourceTree = "<group>";
+		};
+		E6C422FCE995CE4844A52CD3 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLLiteralToken.m;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLLiteralToken.m;
+			sourceTree = "<group>";
+		};
+		E72B4683BC387916BD0526F9 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLNumericLiteralToken.m;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLNumericLiteralToken.m;
+			sourceTree = "<group>";
+		};
+		E797ADA8975E70A8E40F99A2 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = TypeCoercionSupport.m;
+			path = Code/TypeConversion/TypeCoercionSupport.m;
+			sourceTree = "<group>";
+		};
+		E7AA66EBE2BDC11F87BAB2C3 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-RaptureXML@Gilt.xcconfig";
+			sourceTree = "<group>";
+		};
+		E8A075ED4A4F7D3DDAD88963 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBEnvironmentLoader.m;
+			path = Code/Environment/MBEnvironmentLoader.m;
+			sourceTree = "<group>";
+		};
+		EA3A63F8F5766F8DD008B8D9 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBThreadsafeCache.h;
+			path = Code/Caching/MBThreadsafeCache.h;
+			sourceTree = "<group>";
+		};
+		EB3D33E98E3A379B119E3B7B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = "NSString+MBMessageDigest.h";
+			path = "Code/MessageDigest/NSString+MBMessageDigest.h";
+			sourceTree = "<group>";
+		};
+		EE1EFE2CBEAAAC615F0D5EC0 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLRegexFunctions.h;
+			path = Code/Functions/Implementation/MBMLRegexFunctions.h;
+			sourceTree = "<group>";
+		};
+		EE3FDEE60127DB259355E5C4 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBCacheOperations.h;
+			path = Code/Caching/MBCacheOperations.h;
+			sourceTree = "<group>";
+		};
+		EE5868269E465597E86FA096 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBDataEnvironmentConstants.m;
+			path = Code/Module/MBDataEnvironmentConstants.m;
+			sourceTree = "<group>";
+		};
+		EFFC4BDA407F79FF9E1FE411 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBExpressionCache.m;
+			path = Code/ExpressionEngine/MBExpressionCache.m;
+			sourceTree = "<group>";
+		};
+		F0A37715FA41D09A0EDB7165 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLBooleanOrOperatorToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLBooleanOrOperatorToken.h";
+			sourceTree = "<group>";
+		};
+		F0D1F1B7CCCA1DA0B45F69F0 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = OperationTokens.h;
+			path = Code/ExpressionEngine/Private/Tokens/OperationTokens.h;
+			sourceTree = "<group>";
+		};
+		F17FB45C298894790116B0F2 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBModule.m;
+			path = Code/Module/MBModule.m;
+			sourceTree = "<group>";
+		};
+		F1EE646B0E997DE29CD9E135 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBSingleton.h;
+			path = Code/Singleton/MBSingleton.h;
+			sourceTree = "<group>";
+		};
+		F31760101C566585A3C87325 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = text.xcconfig;
+			path = "Pods-MBDataEnvironment-Private.xcconfig";
+			sourceTree = "<group>";
+		};
+		F3FC6DC0ED33B5736F452086 = {
+			isa = PBXFileReference;
+			explicitFileType = archive.ar;
+			includeInIndex = 0;
+			name = "libPods-RaptureXML@Gilt.a";
+			path = "libPods-RaptureXML@Gilt.a";
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F40B890CA55C51C0FFAEE298 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLSubtractionOperatorToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Math/MBMLSubtractionOperatorToken.h";
+			sourceTree = "<group>";
+		};
+		F492972A856763450D526331 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = SystemConfiguration.framework;
+			path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/SystemConfiguration.framework;
+			sourceTree = DEVELOPER_DIR;
+		};
+		F4BBA4A8DECD24FE22DF5BA7 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLGreaterThanTestToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLGreaterThanTestToken.m";
+			sourceTree = "<group>";
+		};
+		F514A1F71F8E00D8BD932969 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBExpression.h;
+			path = Code/ExpressionEngine/MBExpression.h;
+			sourceTree = "<group>";
+		};
+		F78D02882CE526C6B560B810 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLMathGroupingToken.m;
+			path = "Code/ExpressionEngine/Private/Tokens-Math/MBMLMathGroupingToken.m";
+			sourceTree = "<group>";
+		};
+		F83292424064825F2B9AA943 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBScopedVariables.h;
+			path = Code/VariableSpace/MBScopedVariables.h;
+			sourceTree = "<group>";
+		};
+		F9CADDA548DCD13E91471761 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			path = "Pods-RaptureXML@Gilt-dummy.m";
+			sourceTree = "<group>";
+		};
+		FB86253EE7C957EB38C3039E = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBBitmapPixelPlane.m;
+			path = Code/Graphics/MBBitmapPixelPlane.m;
+			sourceTree = "<group>";
+		};
+		FCB11D1EDCCBFEA3D6E3A4A1 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.objc;
+			name = MBMLKeywordMatchingToken.m;
+			path = Code/ExpressionEngine/Private/Tokens/MBMLKeywordMatchingToken.m;
+			sourceTree = "<group>";
+		};
+		FCD636E2C20C2EEC92BEEBA7 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBModuleLogMacros.h;
+			path = Code/Module/MBModuleLogMacros.h;
+			sourceTree = "<group>";
+		};
+		FE14921931AEC3A73EEA679B = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = TypeCoercionSupport.h;
+			path = Code/TypeConversion/TypeCoercionSupport.h;
+			sourceTree = "<group>";
+		};
+		FE819B23D10D64D3299A52E1 = {
+			isa = PBXFileReference;
+			includeInIndex = 1;
+			lastKnownFileType = sourcecode.c.h;
+			name = MBMLEqualityTestToken.h;
+			path = "Code/ExpressionEngine/Private/Tokens-Boolean/MBMLEqualityTestToken.h";
+			sourceTree = "<group>";
+		};
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D8DF89DEAC51A202FF6B346 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E39FB8B5ED22A57493B6876,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69D1CA12E1EDA9D9FBCCE46C = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D73B8FCF49D2BE052030FA2,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73E23228C863EB6CAEA05C49 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9929921FCB58AC9F8E3F0843 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256BB2E95CCFAEA5CFE059BB,
+				C3DBE303956D55FB190216F9,
+				ACEC72F73F4A564406827589,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D880296ABD713666CE484470 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70D1785008769E58681A0BAE,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02FAD08093153BDF67D4B384 = {
+			isa = PBXGroup;
+			children = (
+				BED85C7540717CD6211B9FD2,
+				FB86253EE7C957EB38C3039E,
+			);
+			name = BitmapPixelPlane;
+			sourceTree = "<group>";
+		};
+		0BAC960A039A72FD9A6B19E3 = {
+			isa = PBXGroup;
+			children = (
+				E605749DAEB53BDAC6BD6D31,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0EE79291DDBD59130DA9676D = {
+			isa = PBXGroup;
+			children = (
+				660E5C1FC2E8BB6CB041FBB5,
+				A02A18480F1111E0BB7513EB,
+			);
+			name = "StringConversions-NSData";
+			sourceTree = "<group>";
+		};
+		1174C732C8046B954400DF68 = {
+			isa = PBXGroup;
+			children = (
+				6AAD64533565B23F07B0A3BA,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		15FC85B8A381DC1667809DE1 = {
+			isa = PBXGroup;
+			children = (
+				61C80FBE93ADD7BB206C2490,
+			);
+			name = Debug;
+			sourceTree = "<group>";
+		};
+		240DADDC107CA07CD25D7EB6 = {
+			isa = PBXGroup;
+			children = (
+				0E4611E5B09CB65F2080A732,
+			);
+			name = Availability;
+			sourceTree = "<group>";
+		};
+		2551A14D98268B3C1131760B = {
+			isa = PBXGroup;
+			children = (
+				21A683C5E6B92EFAA87C1B13,
+				87632A2A320A7845ADF28292,
+			);
+			name = ConcurrentReadWriteCoordinator;
+			sourceTree = "<group>";
+		};
+		25CEEC03E88B82E2BD9B9E8A = {
+			isa = PBXGroup;
+			children = (
+				C2610B356640CE3FA938F31B,
+				D72944C7B3FC61E07D89AB3C,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		278D615080679F275E4504B2 = {
+			isa = PBXGroup;
+			children = (
+				B6B7330ECFCD76E26E548F32,
+			);
+			name = StringFunctions;
+			sourceTree = "<group>";
+		};
+		2822B985A8B6D1F3CF792565 = {
+			isa = PBXGroup;
+			children = (
+				BC6584D7A751144E878F76F6,
+				8F02408452060659D6804392,
+			);
+			name = "MBToolbox-NSError";
+			sourceTree = "<group>";
+		};
+		2CB750B43EFF531A76C885C6 = {
+			isa = PBXGroup;
+			children = (
+				9E60A47322AD96900F298284,
+				719313F0CDEB47C7A1ACFEF8,
+				8CAE13E916C645D6B02DE006,
+				BDF33CCCC74E8AB5EFFAE944,
+				EE5868269E465597E86FA096,
+				BD0CE5DD48C2CC1386BDB99A,
+				286D7B8F35630C69EE33D59A,
+				A9DC5487DCBE5D13D46CCF4C,
+				8630DF297B95600B9623D1DC,
+				DB9A24BE930E1536EA555677,
+				DD9168A6E6E1232822D8B9A7,
+				756211A0B34FDF45D721CB17,
+				E8A075ED4A4F7D3DDAD88963,
+				77310F1C23CB63B3BD154890,
+				4FAB285A6B9F006E267F4398,
+				F514A1F71F8E00D8BD932969,
+				D18B17649F832B338F32DCD9,
+				E0BC4F439051DEC68C1D3473,
+				454B07C4DFE8C91769DEEAFD,
+				EFFC4BDA407F79FF9E1FE411,
+				ABA47AC4FD01B77F6BFA321F,
+				2DC22AFD031040336138652C,
+				43832BAC0C4CB6288214D901,
+				73EECF4B3E3EEAB719CFC785,
+				CB4876F455855F473976D861,
+				031E267C98F9E14496A4AC87,
+				2B4A02052C92770BE685EEBF,
+				4ECDF801F7E894AE4D6EBCE8,
+				60A31FB1F20CF76AD621393B,
+				088589A735CFEBA9E762D29C,
+				7D0E332AC678EFD877BA1AC3,
+				D7BC799DC9B8E6BE9C19C0A1,
+				AC9172DA5AE16AF0CFCF4F7B,
+				782A803C67DE5FA2AC1FCAA3,
+				37A391D9B54DC487D4BB1A6F,
+				B61E85F7933750A1F4A63967,
+				4EE1F40D1599AC3340749413,
+				876DD7E0E8E4114235373633,
+				C2CE765CBB2613EA7A80C6DA,
+				F0A37715FA41D09A0EDB7165,
+				338C6BEADA50896CBA39357E,
+				60FDA9D70D401B03DBF8095E,
+				A19C0B6D8E076D1264544D16,
+				BF1F5AD3C6BBD15CBF9311A2,
+				B5AF9585019C7C7E43859E7F,
+				28A8B915B39C5464B29E6925,
+				C39DC33027904EE5B0DF731F,
+				800B994E22C2CCCC827DA79C,
+				2DB5E2C8C0569EEABC2489B4,
+				4CD3CB6D6773BD1FC7523B87,
+				2AE6DE3711BA0D806ABE9BF2,
+				768A32C81E4DCF4803DD90A5,
+				2BA1699DA0C3EE3760F57FBF,
+				8CE2AD4592B2398288542059,
+				72AF05DEF7D1C471850021BB,
+				FE819B23D10D64D3299A52E1,
+				001D2D955BBEB67A6D0C6E6D,
+				6E2A32C12F456C03AC535F27,
+				3800019FAA683C8B2DB76C2D,
+				8B080DB65009A8B91C73D963,
+				40DB065C65254630904C3CEC,
+				068BCDF8A187776B8084AD7C,
+				2A25EC1232CA30539969CCE6,
+				4302144C8454E0ECED4616EB,
+				30B4743B5F80632EEADFA8EE,
+				5BCF73B6448F38C6B0F796D8,
+				97CE985E445AE33EC3E81B3B,
+				C18608E3BC3B4942CFB4D53C,
+				F4BBA4A8DECD24FE22DF5BA7,
+				D172A0211E70DFA0E40A1C3D,
+				074C4C8497C4BFA2B154EF44,
+				D60C6F33038E5ECCED5B134F,
+				00FBD7698B805B2FCD27AE63,
+				3413A664A24DA514182E780F,
+				6AA9F6592C730D1DBDE87284,
+				E07C8D09A24BCDFC55D5B2FC,
+				FCB11D1EDCCBFEA3D6E3A4A1,
+				CCE517A8BBFA686186B76A1C,
+				8B168F2895CE42E8D8F33158,
+				0267CF5733DA6ADA11E9B07C,
+				AE23201F63FAE801BA0709FD,
+				A44E4E43DA8E4CBB42E93F2D,
+				E6C422FCE995CE4844A52CD3,
+				9D2A9645F10D420FEC78AB38,
+				7F33979D3843DA2D2177EEEB,
+				2DE23F34DA93011E598A377B,
+				B04CDFB52ADCAA703556AADA,
+				13D01B2B6D2851AA3C80B0BA,
+				4501A33E52396F737CE678E3,
+				74F45044D6BC09175E128B2B,
+				F78D02882CE526C6B560B810,
+				8FF1A17980F63144F3BF843E,
+				4DD4CA87331B0E61D44D22D9,
+				9782083175341843A8F13242,
+				D56E4B267DD611FE85DEF617,
+				0ADD0EAAA02F1A6F2513F4CE,
+				4AC72C4C92569DD91153DA3F,
+				7D8AAD9B2FE623EAFCE2A580,
+				E72B4683BC387916BD0526F9,
+				9ECE8F10D5160E9949269C03,
+				C5EEE44517EEE18105EA8929,
+				B5D11590511C645F73FE7845,
+				278187EC95C3454B348A2B98,
+				BF5597C1818A0B62FAE797F0,
+				AA670AE41A0FBC465F4B0256,
+				7D333519B0EDDAB5B048EE4C,
+				59C7CE55F1F6433FFE741A99,
+				E2DF58166763C545EE76730C,
+				478DB0EB5E4C35A14D205EF9,
+				EE1EFE2CBEAAAC615F0D5EC0,
+				A4EFFAD820D1D39D2BEBC758,
+				576257D0E221A7903A3D542B,
+				2DC238AFE3B897378F081820,
+				BF40A86F9F18613A341A3A0E,
+				E53E7AF971C5769A5159395B,
+				C8E41C95B5E349E6E0050BCA,
+				9371159555E3BE749B0CA76C,
+				F40B890CA55C51C0FFAEE298,
+				C424C35C17FF9DC3261C0F65,
+				BB80CE9552B4D750985ABC45,
+				41BDB4F7BC97581790936FDB,
+				66BA44423744FE003AA38568,
+				86AF7299C54F432B3775E360,
+				F83292424064825F2B9AA943,
+				9506A18E453F46EA893DB9C2,
+				023E904E202A6141BCAD4215,
+				65FA4819184B5C39AC051CDC,
+				94BDCE534C3320442AC3B4A8,
+				6CDAA9D684B8E18E238BD2BF,
+				B9CBD967C102BA17F3BB60F3,
+				9DF0658B211E4F78B08F0C0A,
+				F0D1F1B7CCCA1DA0B45F69F0,
+				FE14921931AEC3A73EEA679B,
+				E797ADA8975E70A8E40F99A2,
+				1174C732C8046B954400DF68,
+				4EB3CC93E1606639F4FCEAA7,
+			);
+			name = MBDataEnvironment;
+			path = MBDataEnvironment;
+			sourceTree = "<group>";
+		};
+		2E86ADB76E5405C841D91A45 = {
+			isa = PBXGroup;
+			children = (
+				2CB750B43EFF531A76C885C6,
+				4633AE9917FCC622C7CAD45E,
+				5C44B01D47FE46FCCE26BAC1,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		33AC43054E01CB6A3C4BDB80 = {
+			isa = PBXGroup;
+			children = (
+				379116BDBEF8C107B2DB991B,
+				6DA8C4DC868EBF0FF0FDB788,
+				B7D35FC21B0BAEE954B10D95,
+				64F30AED2B06F1D61AC6ABB8,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MBToolbox";
+			sourceTree = "<group>";
+		};
+		358CB410E2AEDF5FA54B3B55 = {
+			isa = PBXGroup;
+			children = (
+				EB3D33E98E3A379B119E3B7B,
+				DEEDF841B13833823856A529,
+			);
+			name = "MessageDigest-NSString";
+			sourceTree = "<group>";
+		};
+		4633AE9917FCC622C7CAD45E = {
+			isa = PBXGroup;
+			children = (
+				EE9D1B07D6AB32B01536FE7E,
+				240DADDC107CA07CD25D7EB6,
+				02FAD08093153BDF67D4B384,
+				DC5AFF4F3B2398043D1917CC,
+				2551A14D98268B3C1131760B,
+				15FC85B8A381DC1667809DE1,
+				25CEEC03E88B82E2BD9B9E8A,
+				61A066ECBBBEDCFF64619BDE,
+				7F404969AA8F8EDC1AB5C472,
+				4FA28F79CFF42AB92AF8E1C5,
+				6F99BDF5897BCC98B62D052B,
+				4AA9460868BA87E4E293E2D8,
+				2822B985A8B6D1F3CF792565,
+				4922D8FD1068B8F98C76DE9F,
+				A288250CD90A47D193DD6474,
+				358CB410E2AEDF5FA54B3B55,
+				B8D21169BF9C7C4636F0BA9D,
+				BA0BA6E406EFA3F1D3989DD2,
+				491D4072CC32DB5A941A8279,
+				A08CDD1471DAC865DEAA7AAD,
+				E2A891B4AD5738CDF150EA85,
+				4EE5A368681B39ACA7A0D745,
+				567D35361B4E95D7C84803B3,
+				CD854809786B09ADB4F6EE5D,
+				785D4A3F6E33A6F89E896D81,
+				0EE79291DDBD59130DA9676D,
+				278D615080679F275E4504B2,
+				33AC43054E01CB6A3C4BDB80,
+				BCD996E14435C2235A9A31C2,
+				98B003B091694151C860579C,
+			);
+			name = MBToolbox;
+			path = MBToolbox;
+			sourceTree = "<group>";
+		};
+		491D4072CC32DB5A941A8279 = {
+			isa = PBXGroup;
+			children = (
+				58693738C2DAAF818A03DE4A,
+				92A85CAF931694047E343FCD,
+			);
+			name = OperationQueue;
+			sourceTree = "<group>";
+		};
+		4922D8FD1068B8F98C76DE9F = {
+			isa = PBXGroup;
+			children = (
+				3240717CFC0BCFED6B3D37E7,
+				AD8C02970728E4F79821B026,
+			);
+			name = MessageDigest;
+			sourceTree = "<group>";
+		};
+		4AA9460868BA87E4E293E2D8 = {
+			isa = PBXGroup;
+			children = (
+				47620C26A59EB59E7C049992,
+				871FFBB2679C3FB08A2879A4,
+			);
+			name = "Indentation-NSString";
+			sourceTree = "<group>";
+		};
+		4EB3CC93E1606639F4FCEAA7 = {
+			isa = PBXGroup;
+			children = (
+				2F077821830E8F8BDE552622,
+				F31760101C566585A3C87325,
+				D43450A26EE31814C9954544,
+				157C2A8AEAF021B8DBAB5492,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MBDataEnvironment";
+			sourceTree = "<group>";
+		};
+		4EE5A368681B39ACA7A0D745 = {
+			isa = PBXGroup;
+			children = (
+				8B4363916F4C2D08E1351998,
+				9B8D69BE84330CC4F8CE9D9D,
+			);
+			name = RoundedRectTools;
+			sourceTree = "<group>";
+		};
+		4FA28F79CFF42AB92AF8E1C5 = {
+			isa = PBXGroup;
+			children = (
+				1E5DE3A1E0B1428BB4390189,
+				0394B94256EF80428B9D225C,
+			);
+			name = FilesystemOperations;
+			sourceTree = "<group>";
+		};
+		567D35361B4E95D7C84803B3 = {
+			isa = PBXGroup;
+			children = (
+				00D029E9FF3760810913464A,
+			);
+			name = Runtime;
+			sourceTree = "<group>";
+		};
+		5C44B01D47FE46FCCE26BAC1 = {
+			isa = PBXGroup;
+			children = (
+				09699269C34D74692B8EDA0E,
+				554E2948B8DE36EAD665058C,
+				5EE09675353ACB2D6C62CD5E,
+			);
+			name = "RaptureXML@Gilt";
+			path = "RaptureXML@Gilt";
+			sourceTree = "<group>";
+		};
+		5EE09675353ACB2D6C62CD5E = {
+			isa = PBXGroup;
+			children = (
+				E7AA66EBE2BDC11F87BAB2C3,
+				B2828E30D72AABD6A5EC9638,
+				F9CADDA548DCD13E91471761,
+				28E2CA40FD4BE345BFDB0683,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-RaptureXML@Gilt";
+			sourceTree = "<group>";
+		};
+		61A066ECBBBEDCFF64619BDE = {
+			isa = PBXGroup;
+			children = (
+				536243F770CCEBBA1BDFE735,
+				1A182C7539CE2C9D7F9257FA,
+			);
+			name = FieldListFormatter;
+			sourceTree = "<group>";
+		};
+		6F99BDF5897BCC98B62D052B = {
+			isa = PBXGroup;
+			children = (
+				5D4698D1A6275ED43227C559,
+				BF123A72D5C874D94A08B2A4,
+			);
+			name = FormattedDescriptionObject;
+			sourceTree = "<group>";
+		};
+		785D4A3F6E33A6F89E896D81 = {
+			isa = PBXGroup;
+			children = (
+				F1EE646B0E997DE29CD9E135,
+			);
+			name = Singleton;
+			sourceTree = "<group>";
+		};
+		7F404969AA8F8EDC1AB5C472 = {
+			isa = PBXGroup;
+			children = (
+				EE3FDEE60127DB259355E5C4,
+				98A32F21395250064ACB0194,
+				CC85520B7467B734FCBA725F,
+				2919FFF36E5419FA424E3DCA,
+				846577CABD3276F422F0B108,
+			);
+			name = FilesystemCache;
+			sourceTree = "<group>";
+		};
+		98B003B091694151C860579C = {
+			isa = PBXGroup;
+			children = (
+				EA3A63F8F5766F8DD008B8D9,
+				41CD7E05A789BC53D260C0AC,
+				CFDC3078426661B993F62454,
+			);
+			name = ThreadsafeCache;
+			sourceTree = "<group>";
+		};
+		A08CDD1471DAC865DEAA7AAD = {
+			isa = PBXGroup;
+			children = (
+				2EB611B717C5A6C3D93DD6E8,
+				B9260577556B59A75EDEC19D,
+			);
+			name = "Regex-NSString";
+			sourceTree = "<group>";
+		};
+		A288250CD90A47D193DD6474 = {
+			isa = PBXGroup;
+			children = (
+				5F304118636714E504E26FF7,
+				440CD3A82E3831AFC339C23B,
+			);
+			name = "MessageDigest-NSData";
+			sourceTree = "<group>";
+		};
+		B8D21169BF9C7C4636F0BA9D = {
+			isa = PBXGroup;
+			children = (
+				1C241DBA0A0752A7DD829DF6,
+				F17FB45C298894790116B0F2,
+				03C1775B19F44037899C84D1,
+				44522606464EF0B33FA7545A,
+				FCD636E2C20C2EEC92BEEBA7,
+			);
+			name = Module;
+			sourceTree = "<group>";
+		};
+		BA0BA6E406EFA3F1D3989DD2 = {
+			isa = PBXGroup;
+			children = (
+				BFFCDFED9729B31BD0505E88,
+				CB7173E0BCA6AC372808FF0C,
+			);
+			name = NetworkMonitor;
+			sourceTree = "<group>";
+		};
+		BBD904514C1381AD82060F63 = {
+			isa = PBXGroup;
+			children = (
+				9FF4671003C4E04351DC2DCC,
+				8A979861F352AECE5C8C845A,
+				F492972A856763450D526331,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		BCD996E14435C2235A9A31C2 = {
+			isa = PBXGroup;
+			children = (
+				6DAE50AE9ADC87F5A0E9A866,
+				3E0D4DEF26290588C6A9CFA1,
+			);
+			name = ThreadLocalStorage;
+			sourceTree = "<group>";
+		};
+		C2C8594FF42FCE2AB0FF3112 = {
+			isa = PBXGroup;
+			children = (
+				BBD904514C1381AD82060F63,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD854809786B09ADB4F6EE5D = {
+			isa = PBXGroup;
+			children = (
+				53DA6B15AD0C27F1FEA82562,
+				E3BC6A6FFDDD7841D995FCFA,
+				BC9542A7DEDABC029B3E073F,
+			);
+			name = ServiceManager;
+			sourceTree = "<group>";
+		};
+		DC5AFF4F3B2398043D1917CC = {
+			isa = PBXGroup;
+			children = (
+				E1C77CE36286ED6106931245,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		E2A891B4AD5738CDF150EA85 = {
+			isa = PBXGroup;
+			children = (
+				9A7E4DC4ACC216E881B47C81,
+				164F69E93DB3EA9EE948A0AC,
+			);
+			name = RegexCache;
+			sourceTree = "<group>";
+		};
+		E605749DAEB53BDAC6BD6D31 = {
+			isa = PBXGroup;
+			children = (
+				49694C434147E4E207938546,
+				B8FDECB87C012EB22C6B1057,
+				8A0C10EC5118EC855F846A51,
+				685FE8CD37A7BDD828423B54,
+				565129175808BF02F33A2E19,
+				0C26FD417FDF0FBECD3D504C,
+				03319755D06EF2B9E6E47D4B,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		EE9D1B07D6AB32B01536FE7E = {
+			isa = PBXGroup;
+			children = (
+				E24C5A5957E1C45B2B32AFE7,
+			);
+			name = Assert;
+			sourceTree = "<group>";
+		};
+		FBF2AF9E9D918932B413DFBB = {
+			isa = PBXGroup;
+			children = (
+				D4457893497A18C21DDC2C33,
+				C2C8594FF42FCE2AB0FF3112,
+				2E86ADB76E5405C841D91A45,
+				FDBF948B7B930FED39EBF499,
+				0BAC960A039A72FD9A6B19E3,
+			);
+			sourceTree = "<group>";
+		};
+		FDBF948B7B930FED39EBF499 = {
+			isa = PBXGroup;
+			children = (
+				578F20465F23E1D9D5744414,
+				46CF3E0BF55E1D76EB99B708,
+				45CFB423A042468B42AA9682,
+				951A9D06012AE1F70CDCD1CD,
+				F3FC6DC0ED33B5736F452086,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		86C8DCDB1AD82942AFA9ABF6 = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7D90A6580921A3DC203518,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25F210160FA2E00E0BA97B9 = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1EDD920C00FFCEB1D39575D,
+				00AF974725FDA574591BAA7B,
+				D20ED6D3236D4318EC7DD98A,
+				A7C1030EF1EDC3B245528407,
+				23DFA6D72337B0F15A437078,
+				378048D41BDBAEA65AA42272,
+				94B7DFE0149D93D2421C2CF6,
+				F861F3966566EC11DB570194,
+				CC5CF3BB060DDFBCE5D11F2E,
+				A1A52D69E92E2EFDBCBE60DE,
+				1BE021E97F3A79BD3326DB7C,
+				650E087A993D0FFEE372FFDB,
+				ACD71FA31ED8C5426090B7B4,
+				75436AC37CE80FC9A6C4B244,
+				F98FBECB20C2908029B5BAF6,
+				F9F12247A550332B86757984,
+				F7F911B8C8D7DB8B3D2007C7,
+				4EEA342E8E96B55F71340E88,
+				DB060D6B7B7E0D77BF982205,
+				182F89DBAF40F060EF3B44EE,
+				808E09CCB97D7C5A1069154A,
+				8F91FBC6A424324CCEA28737,
+				E9941E7AAA5CF2ED97E8E24E,
+				F5D6A8CF59D05106B9ECF95A,
+				412A64D2EE7AC9A97278F20A,
+				8C88969C00E364ED0DC2BC04,
+				E198A6EB0F722898678E1959,
+				C81C1417346727664D13DD6F,
+				9E29A5CACB56183103778BFA,
+				5D91C788E8AA3EA35EE98C0C,
+				D0E5B5437B43BF624C6820F1,
+				2DC8507C008839A868BB0A18,
+				57EB1B544507ECD3AD81345D,
+				812B7CE7CC40298592CC7022,
+				BE3E75706D347F1074C4F91B,
+				164014031FEE64596B8D902F,
+				90AC649A2C92656AC3EBBD5B,
+				8D20E77A7AAB2F6C895D75F9,
+				DBC087219562E540E9FF0787,
+				F231621D861C93A916EF70EB,
+				C7F9F300B8D031BC755A2748,
+				AD38C38EF19564DC6616D23D,
+				9ACD3ADDA229BB2C92B43A9C,
+				197375F7238576421E6E05ED,
+				217CC7228720061887AD4FB6,
+				8C49316B0301E54021E089E7,
+				45135BCC3DFC283F2824D8E3,
+				5D1A2FA4053362D3643AA76A,
+				13B8ABBFC9758645CBAC217B,
+				8E2B65F60405E413B679B507,
+				6980EDD118A854983EE170B2,
+				65D4904A26F25D5AC2BC107F,
+				E85B76A9145B23E59912A632,
+				88F58ADE5BF7064ACD97A7CB,
+				1E21F8C3BCA89842D6E07B68,
+				247BD8FF2725D72836A5BD5A,
+				A333E3D3B55AEDA451C5B2E4,
+				732C430DD7135DA123EF31FA,
+				56023C16143AC57EB7187AB3,
+				CA4415E027CC3551BA199022,
+				818C937FE6CADDFDF55C41C3,
+				D0933037FD43967B37CEDFFC,
+				2DCE7398A6685D37D99BCFA0,
+				0831815BC89B4FD80D6D07CA,
+				B662EB4CC3AE245196937C8E,
+				2BFC84D003188399C10AC5F1,
+				58F44F8D748E179BCD8DEE52,
+				AAE5B473FBF3DE7466076430,
+				24DF2DA06130EAC90ED06C67,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56D41E3A00BB7B118972578 = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E925F61244F154111761D690,
+				A66A7B1B498AA58F18F0526B,
+				CDAAD0B5E1DC9717FB09CE4D,
+				C07629C406CBF5725F949B49,
+				8D257294326761B899E8C733,
+				324D07491049B152B32919DE,
+				B1645D7FC1C60F44719FE0AB,
+				57A8E82475077A08746D063D,
+				FFA8C780400C90CC2C912770,
+				AA1E43434E6D51EBE86612B8,
+				C10E9B564BCA7ABE79DB9E8B,
+				05129CF1FDCAC83369101175,
+				BFA7EF464BD1FC78033F72B9,
+				0770E30240C4DB0730285AFC,
+				2C1D657B78D87E5595F83420,
+				78EEA7B736F5DC7E0162EE7B,
+				55981B55A0C201691562FAF6,
+				D9AFE9CFD12EC1A3499E17CE,
+				6C45873873AAA0F6B45F9CA7,
+				CE023CB4CE5A7ACAB041E82A,
+				CE32E0C73A346274AD3B4047,
+				252D6EBA770AAD3CAE63640B,
+				74A047754ADDCA09F0CC8FEB,
+				18123531197359A5A9B14C7D,
+				119F5D55ABCAD0E7D5B6F7EE,
+				8DF45CAB240B022B56D94886,
+				EF4797D6F3DEF30E8FA22D4F,
+				8FBBB2DBE2D1C6D6937FA18C,
+				5DB862B0E72126751CDD3A8C,
+				E58A6ABB923C7372903ACCBF,
+				74253BF5E761EF5C35AFAC9E,
+				FBAB269408CE7A96F014966E,
+				BE26B0F967B4D73A727DCF1B,
+				345DD6BFD7CCFC5D74748A49,
+				CCC1EAD60103DF634A9AB2ED,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4C1D262218909735543B71BE = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F12B8DF29EA79493C1A6AED;
+			buildPhases = (
+				3D820A63FB04AA232A6189DC,
+				D880296ABD713666CE484470,
+				86C8DCDB1AD82942AFA9ABF6,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RaptureXML@Gilt";
+			productName = "Pods-RaptureXML@Gilt";
+			productReference = F3FC6DC0ED33B5736F452086;
+			productType = "com.apple.product-type.library.static";
+		};
+		554FC52A7F38E72D5DB1BA8D = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840C1A74931151F29480210E;
+			buildPhases = (
+				849236177D27F6F246476728,
+				73E23228C863EB6CAEA05C49,
+				859B93B9359D550B1C979BE3,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MBDataEnvironment-MBDataEnvironment";
+			productName = "Pods-MBDataEnvironment-MBDataEnvironment";
+			productReference = 578F20465F23E1D9D5744414;
+			productType = "com.apple.product-type.bundle";
+		};
+		7B0EC45EB2B9B6886A30C695 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E41B58196DA394DE2B8CD649;
+			buildPhases = (
+				1F4BE7102EF6382A19AE59D7,
+				1D8DF89DEAC51A202FF6B346,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B422A9E8EB2935D75CDE012A,
+				F5BB96A9923D7F73A3731B88,
+				61B00DBD81C2C69B76882D58,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 46CF3E0BF55E1D76EB99B708;
+			productType = "com.apple.product-type.library.static";
+		};
+		B42DB2631150124BB010C446 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A4D8F3B5029924F7ED2D9A7;
+			buildPhases = (
+				7F95EAFF77BDFE9FB5E891B0,
+				69D1CA12E1EDA9D9FBCCE46C,
+				F25F210160FA2E00E0BA97B9,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C33C5F7412F47B3F2D1485DA,
+				D4441174A84909533AEB30E2,
+				EAA67C1FEF0110D72EB3B659,
+			);
+			name = "Pods-MBDataEnvironment";
+			productName = "Pods-MBDataEnvironment";
+			productReference = 45CFB423A042468B42AA9682;
+			productType = "com.apple.product-type.library.static";
+		};
+		D1B8D8A22C9B12A662D877AA = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73EFD9EDCF75D2A9FEA8A761;
+			buildPhases = (
+				15498422634396E6FE7056A7,
+				9929921FCB58AC9F8E3F0843,
+				F56D41E3A00BB7B118972578,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MBToolbox";
+			productName = "Pods-MBToolbox";
+			productReference = 951A9D06012AE1F70CDCD1CD;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		935399A30E929746A5CF610A = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = E2A1E17C8CFD93759EAFCA56;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FBF2AF9E9D918932B413DFBB;
+			productRefGroup = FDBF948B7B930FED39EBF499;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				7B0EC45EB2B9B6886A30C695,
+				B42DB2631150124BB010C446,
+				554FC52A7F38E72D5DB1BA8D,
+				D1B8D8A22C9B12A662D877AA,
+				4C1D262218909735543B71BE,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		859B93B9359D550B1C979BE3 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5100DB8F3F36DDD6CB3C2D9F,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15498422634396E6FE7056A7 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F62C533628574EF2811CE458,
+				1355221F4310258A9FC35C7F,
+				5ACA588B5495A11D8624AAFD,
+				CB9A7DC42EE90666C7472694,
+				EE3A80B77AA8901C481B2153,
+				FE354D257E8848A160832DA5,
+				0022BAD941F6638C20AEDE82,
+				3F5D7F63C46F13F2F48108E8,
+				426B08D2E36D03C59AFAD8D2,
+				B240C5C54C2B4EB318C92E02,
+				F8795C3EDD9DF392DDBDA693,
+				84160ABFF15288098F56BEDB,
+				92CC5D8F516F7331A470087C,
+				BF14706CD343F87D3132EBFB,
+				4E19FBAB63BBF674D77B8D54,
+				3CEFA75767D3C768E1C77652,
+				B406FA3F4068BAF8C95DCAFD,
+				0E7DC3DA431FEDFB8A126EAB,
+				093C14B8581CF33E34C60EAB,
+				A2D888E2CE449836E4CC7C76,
+				76260B2D6D0D6427A6332AA3,
+				D85F28D5FB325E4B9E59AB5E,
+				D8AE0037A71B22B8E6035801,
+				11518B39944F200731799475,
+				711D9413A739FA9389361D93,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4BE7102EF6382A19AE59D7 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E44C98933CF66372C2BC599,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D820A63FB04AA232A6189DC = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5EBCA6D11DAE2B556FB4F65,
+				3274D8CCCA4FC810FC4A65F8,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F95EAFF77BDFE9FB5E891B0 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6FE0235657BB05B2CF2C121,
+				24C343C58CA93EE0672EA2EA,
+				BC2CD146C8A4ABFDAEC341B2,
+				7842B3F055624085B1922EC7,
+				01BE236312DBDFEF4887A713,
+				805D734F8B14D90A95EE1F28,
+				4F67FF653E03DF6F7AE1155A,
+				9C516126AF03A00E712AE12E,
+				4F1BFD13F635A8A95C074699,
+				A6339C48AC8AC931ADB01B2D,
+				30C522888DFC8C59C877372B,
+				B9E929B238A8724E875B5551,
+				14B242B84887A2D3186923FC,
+				3492993505479AD8048065DF,
+				771C48DB5CD67255283ED670,
+				A4227E9E2E7C41D6AACC0862,
+				1B343D1037D13D8C3764D2AC,
+				E1BE734D31CD4B6CB9A8049D,
+				D24632840C9D374DB50BEA27,
+				ACADD616F9EEA06FE62518EF,
+				8BD3F9F5C0F1C20088CB2B27,
+				FF7F36CC4BECC21F2FC1E31E,
+				842B21B9EDE2FE5F8CB9EEAC,
+				40F18E48AED58EA8AA23C934,
+				4BD5D1AA1664F21231C875F7,
+				C926F68E3396E6010046421B,
+				EBE3075C4769444CE475C5E5,
+				6DB48D67EE1EE65C72663411,
+				DC75C52EDE68080BA60E9792,
+				A9F9851845DF6D1A475CC067,
+				303AFED2759B324B1821F688,
+				32ED718A195AD2E40BA3F917,
+				7FEC7788A89D48F6136E31A2,
+				58D231C57C8074577A653FAA,
+				F61A4C21BE9ED5C8316310F7,
+				C48903FC18777BE5644BC290,
+				B5D6642D6AD6FD03C20905E2,
+				530EA894C3CC232F3F99B483,
+				E866C0DA34C80871B567BF0C,
+				BE334EDEA13D3D09DD877273,
+				CD0D879B9364D43D1B8543E3,
+				31D74DEF108EA72F6417CA4A,
+				31687BFB3ABC68DC27BDE64C,
+				A8971C643941388C932DA631,
+				F127C5A6EEC4C386C2DE62B5,
+				2A17F147DAC2FCE95887E595,
+				355DBE3D78C673C89FD5D36F,
+				3CB2496AF7C7FB71E96B0A40,
+				4899C239A93A3AB433452942,
+				D84882754128B0A5679FAE34,
+				FDAF5D7755FFAA8F16A6F44D,
+				84E697112ED35C5EBEBCC849,
+				0572D7FCB26B693DB5C979E1,
+				3F7BE3AD703E144DB6CDC625,
+				00F014B21DF52590C779664C,
+				5A791F731F249F62CC81A1DC,
+				624B28C3204DA81EE1EC42C9,
+				70D7D43BB5A522C790DBDAF1,
+				14EB902B7CC511FB6FC24B1B,
+				9C29DAC3AFE541174E00DB0E,
+				6EDAB6038653A6750D769747,
+				FDB4B4F10ED6CCE2CB91AB9F,
+				616872F6EA7B9A0B64BD8B94,
+				1DD38D8268D579B546D44F22,
+				F790790BB909FB3437EC6F9D,
+				257B5E2CF14DF609B08ADDD1,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849236177D27F6F246476728 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61B00DBD81C2C69B76882D58 = {
+			isa = PBXTargetDependency;
+			name = "Pods-RaptureXML@Gilt";
+			target = 4C1D262218909735543B71BE;
+			targetProxy = 266EC776F574D478A3A57DA3;
+		};
+		B422A9E8EB2935D75CDE012A = {
+			isa = PBXTargetDependency;
+			name = "Pods-MBDataEnvironment";
+			target = B42DB2631150124BB010C446;
+			targetProxy = 248A42A7D9DBB9A6F874D42B;
+		};
+		C33C5F7412F47B3F2D1485DA = {
+			isa = PBXTargetDependency;
+			name = "Pods-MBDataEnvironment-MBDataEnvironment";
+			target = 554FC52A7F38E72D5DB1BA8D;
+			targetProxy = F5EDF7ACF2BD25D33D9E9BA9;
+		};
+		D4441174A84909533AEB30E2 = {
+			isa = PBXTargetDependency;
+			name = "Pods-MBToolbox";
+			target = D1B8D8A22C9B12A662D877AA;
+			targetProxy = 73265D01EA277142FE677CCA;
+		};
+		EAA67C1FEF0110D72EB3B659 = {
+			isa = PBXTargetDependency;
+			name = "Pods-RaptureXML@Gilt";
+			target = 4C1D262218909735543B71BE;
+			targetProxy = C6A3CD54F444CB7695086DAE;
+		};
+		F5BB96A9923D7F73A3731B88 = {
+			isa = PBXTargetDependency;
+			name = "Pods-MBToolbox";
+			target = D1B8D8A22C9B12A662D877AA;
+			targetProxy = 33F232C55E2822751DD4DF09;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		014C632ABE263056592A5BE8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RELEASE=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33B658B1345BB285566E2488 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31760101C566585A3C87325;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = MBDataEnvironment;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4290118CAD931546A289D716 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31760101C566585A3C87325;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MBDataEnvironment/Pods-MBDataEnvironment-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7AEB0418FF003B3344D9004D = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C26FD417FDF0FBECD3D504C;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7C4DFDEA6E5785BAA0C5BFDC = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA8C4DC868EBF0FF0FDB788;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MBToolbox/Pods-MBToolbox-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7E754F746887B533FFC93E1B = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9C3A8896F50A949D0B236DB6 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03319755D06EF2B9E6E47D4B;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A73F677A1829AA8A4D92E063 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DA8C4DC868EBF0FF0FDB788;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MBToolbox/Pods-MBToolbox-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BEE30B8B64C59B9363DA4760 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2828E30D72AABD6A5EC9638;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RaptureXML@Gilt/Pods-RaptureXML@Gilt-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C90C6C7CDA42F7212F7ABBD0 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31760101C566585A3C87325;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = MBDataEnvironment;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DE3CA604B048376AFE64CBE4 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2828E30D72AABD6A5EC9638;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RaptureXML@Gilt/Pods-RaptureXML@Gilt-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FFF9EA84EF992421610C1A17 = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F31760101C566585A3C87325;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MBDataEnvironment/Pods-MBDataEnvironment-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A4D8F3B5029924F7ED2D9A7 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4290118CAD931546A289D716,
+				FFF9EA84EF992421610C1A17,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73EFD9EDCF75D2A9FEA8A761 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C4DFDEA6E5785BAA0C5BFDC,
+				A73F677A1829AA8A4D92E063,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840C1A74931151F29480210E = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C90C6C7CDA42F7212F7ABBD0,
+				33B658B1345BB285566E2488,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F12B8DF29EA79493C1A6AED = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE3CA604B048376AFE64CBE4,
+				BEE30B8B64C59B9363DA4760,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2A1E17C8CFD93759EAFCA56 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E754F746887B533FFC93E1B,
+				014C632ABE263056592A5BE8,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E41B58196DA394DE2B8CD649 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AEB0418FF003B3344D9004D,
+				9C3A8896F50A949D0B236DB6,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 935399A30E929746A5CF610A;
+}

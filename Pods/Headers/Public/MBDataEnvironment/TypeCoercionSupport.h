@@ -1,0 +1,1 @@
+../../../MBDataEnvironment/Code/TypeConversion/TypeCoercionSupport.h

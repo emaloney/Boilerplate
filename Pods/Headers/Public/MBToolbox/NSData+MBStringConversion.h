@@ -1,0 +1,1 @@
+../../../MBToolbox/Code/Strings/NSData+MBStringConversion.h
