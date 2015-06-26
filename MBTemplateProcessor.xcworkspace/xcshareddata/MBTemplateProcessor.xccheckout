@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>14E09F17-2E46-4A8C-AE32-CF74EF4691AE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MBTemplateProcessor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>13D814DB3F041CCF4BD3AE169E40A776ABBCE23E</key>
+		<string>github.com:emaloney/MBTemplateProcessor.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MBTemplateProcessor.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>13D814DB3F041CCF4BD3AE169E40A776ABBCE23E</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:emaloney/MBTemplateProcessor.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>13D814DB3F041CCF4BD3AE169E40A776ABBCE23E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>13D814DB3F041CCF4BD3AE169E40A776ABBCE23E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MBTemplateProcessor</string>
+		</dict>
+	</array>
+</dict>
+</plist>
