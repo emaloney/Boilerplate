@@ -86,7 +86,7 @@ enum OutputDestination
     {
         switch self {
         case .Stdout:
-            print(out)
+            print(out, appendNewline: false)
 
         case .File(let path):
             try! (out as NSString).writeToFile(path, atomically: true, encoding: NSUTF8StringEncoding)
@@ -198,10 +198,18 @@ if argList.hasArgument(.OutputFile) {
     destination = .File(argList.argumentValue(.OutputFile)!)
 }
 
+
+
+let env = MBEnvironment.loadDefaultEnvironment()!
+
 let template = templateSource.read()
+print(template)
 
 if let data = dataSource.read() {
-    
+    let xml = RXMLElement(fromXMLString: data, encoding: NSUTF8StringEncoding)
+    env.amendDataModelWithXML(xml)
 }
 
-destination.write(template)
+let result = template.evaluateAsString()
+
+destination.write(result!)
