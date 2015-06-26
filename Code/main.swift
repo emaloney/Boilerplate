@@ -151,12 +151,8 @@ let verbose = ArgumentDeclaration.forName(.Verbose, type: .Flag, shortForm: "v",
 let help = ArgumentDeclaration.forName(.Help, type: .Flag, shortForm: "h", longForm: "help")
 let output = ArgumentDeclaration.forName(.OutputFile, type: .SingleValue, shortForm: "o", longForm: "output")
 
-let files = ArgumentDeclaration(type: .MultiValue, shortForm: "f", longForm: "files")
-let foo = ArgumentDeclaration(type: .Flag, longForm: "foo")
-//print(decl)
 
-
-let proc = ArgumentProcessor(declarations: [dataFile, templateFile, verbose, help, files, output, foo])
+let proc = ArgumentProcessor(declarations: [dataFile, templateFile, verbose, help, output])
 
 let argList = proc.process(Process.arguments)
 
@@ -199,11 +195,9 @@ if argList.hasArgument(.OutputFile) {
 }
 
 
-
 let env = MBEnvironment.loadDefaultEnvironment()!
 
 let template = templateSource.read()
-print(template)
 
 if let data = dataSource.read() {
     let xml = RXMLElement(fromXMLString: data, encoding: NSUTF8StringEncoding)
