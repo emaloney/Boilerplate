@@ -1,5 +1,5 @@
 PODS:
-  - MBDataEnvironment (1.1.3):
+  - MBDataEnvironment (1.1.4):
     - MBToolbox (~> 1.1.5)
     - RaptureXML@Gilt (~> 1.0.4)
   - MBToolbox (1.1.5):
@@ -112,10 +112,10 @@ PODS:
   - RaptureXML@Gilt (1.0.4)
 
 DEPENDENCIES:
-  - MBDataEnvironment (~> 1.1.3)
+  - MBDataEnvironment (~> 1.1.4)
 
 SPEC CHECKSUMS:
-  MBDataEnvironment: 91648aa00f256d63a7066ce6e30538f3b69f1444
+  MBDataEnvironment: 183fc83c3e066c5b74a8077e7eaf948f387024b6
   MBToolbox: be6acddddc0a7d9caa6b32419d1480615e9b0a14
   RaptureXML@Gilt: cfde4ff1694563d9e45e74640c0cd4f887f500ed
 

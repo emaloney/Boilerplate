@@ -1,1 +1,1 @@
-pod 'MBDataEnvironment',  '~> 1.1.3'
+pod 'MBDataEnvironment',  '~> 1.1.4'
