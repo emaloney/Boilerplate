@@ -30,6 +30,7 @@ func readFromPath(path: String)
 enum ArgumentName: String
 {
     case DataFile = "dataFile"
+    case ManifestFile = "manifestFile"
     case StdinData = "stdinData"
     case TemplateFile = "templateFile"
     case OutputFile = "outputFile"
@@ -160,11 +161,12 @@ extension ArgumentValues
 let dataFile = ArgumentDeclaration.forName(.DataFile, type: .SingleValue, shortForm: "d", longForm: "data")
 let stdinData = ArgumentDeclaration.forName(.StdinData, type: .Flag, longForm: "stdin-data")
 let templateFile = ArgumentDeclaration.forName(.TemplateFile, type: .SingleValue, shortForm: "t", longForm: "template")
+let manifestFile = ArgumentDeclaration.forName(.ManifestFile, type: .SingleValue, shortForm: "m", longForm: "manifest")
 let verbose = ArgumentDeclaration.forName(.Verbose, type: .Flag, shortForm: "v", longForm: "verbose")
 let help = ArgumentDeclaration.forName(.Help, type: .Flag, shortForm: "h", longForm: "help")
 let output = ArgumentDeclaration.forName(.OutputFile, type: .SingleValue, shortForm: "o", longForm: "output")
 
-let proc = ArgumentProcessor(declarations: [dataFile, stdinData, templateFile, verbose, help, output])
+let proc = ArgumentProcessor(declarations: [dataFile, stdinData, templateFile, verbose, help, output, manifestFile])
 
 //print(Process.arguments)
 let argList = proc.process(Process.arguments)
@@ -188,6 +190,7 @@ let argList = proc.process(Process.arguments)
 //    }
 //}
 
+var manifest: String?
 var templateSource = TemplateSource.Stdin
 var dataSource = DataSource.None
 var destination = OutputDestination.Stdout
@@ -215,8 +218,16 @@ if argList.hasArgument(.OutputFile) {
     destination = .File(argList.argumentValue(.OutputFile)!)
 }
 
+if argList.hasArgument(.ManifestFile) {
+    manifest = argList.argumentValue(.ManifestFile)
+}
 
-let env = MBEnvironment.loadDefaultEnvironment()!
+let env: MBEnvironment
+if let manifest = manifest {
+    env = MBEnvironment.loadFromManifestFile(manifest)!
+} else {
+    env = MBEnvironment.loadDefaultEnvironment()!
+}
 
 let template = templateSource.read()
 
