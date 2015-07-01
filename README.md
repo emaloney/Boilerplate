@@ -23,21 +23,21 @@ Lastly, Boilerplate replaces each expression in the template with the value the 
 Assuming the binary is reachable from your shell’s `$PATH`, Boilerplate is invoked with the command:
 
 ```bash
-boiler
+plate
 ```
 
-By default, `boiler` accepts the template document from `stdin` and writes the output to `stdout`.
+By default, `plate` accepts the template document from `stdin` and writes the output to `stdout`.
 
 ### Invoking without a data set
 
-A data set does not need to be provided to use `boiler`. The Mockingbird Data Environment provides a number of [*functions*](https://github.com/emaloney/MBDataEnvironment/blob/master/README.md#mbml-functions) that you can invoke from within a template.
+A data set does not need to be provided to use `plate`. The Mockingbird Data Environment provides a number of [*functions*](https://github.com/emaloney/MBDataEnvironment/blob/master/README.md#mbml-functions) that you can invoke from within a template.
 
-For example, you might just want to use `boiler` to embed a timestamp in a document. You could use [the `^currentTime()` function](https://rawgit.com/emaloney/MBDataEnvironment/master/Documentation/html/Classes/MBMLDateFunctions.html#//api/name/currentTime) for this.
+For example, you might just want to use `plate` to embed a timestamp in a document. You could use [the `^currentTime()` function](https://rawgit.com/emaloney/MBDataEnvironment/master/Documentation/html/Classes/MBMLDateFunctions.html#//api/name/currentTime) for this.
 
 To see what the output of `^currentTime()` would look like in your template document, you can get a preview from the command line:
 
 ```bash
-echo "^currentTime()" | boiler
+echo "^currentTime()" | plate
 ```
 
 This command would yield output similar to:
@@ -55,7 +55,7 @@ Before the `NSDate` is converted into a string, we can pass it to a function tha
 The [`^formatLongDateTime()`](https://rawgit.com/emaloney/MBDataEnvironment/master/Documentation/html/Classes/MBMLDateFunctions.html#//api/name/formatLongDateTime:) function accepts an `NSDate` and returns a formatted string using the `NSDateFormatterLongStyle`:
 
 ```bash
-echo "^formatLongDateTime(^currentTime())" | boiler
+echo "^formatLongDateTime(^currentTime())" | plate
 ```
 
 For someone in New York City, this command would yield output similar to:
@@ -67,7 +67,7 @@ June 30, 2015 at 12:44:36 PM EDT
 And, of course, what would any date formatting tool be without the ability to specify custom formats? The `^formatDate()` function handles this:
 
 ```bash
-echo "^formatDate(^currentTime()|yyyy-MM-dd)" | boiler
+echo "^formatDate(^currentTime()|yyyy-MM-dd)" | plate
 ```
 
 The command above would yield output like:
@@ -103,7 +103,7 @@ Assume the following MBML code exists in a file named “`shipping.xml`”:
 Typically, you specify external data by providing a file path to the `--data` (or `-d`) argument:
 
 ```bash
-echo "\$recipient.name.first \$recipient.name.last\n\$recipient.street\n\$recipient.city \$recipient.state \$recipient.zip" | boiler -d shipping.xml
+echo "\$recipient.name.first \$recipient.name.last\n\$recipient.street\n\$recipient.city \$recipient.state \$recipient.zip" | plate -d shipping.xml
 ```
 
 This would yield the output:
@@ -114,13 +114,13 @@ J. Wellis
 Lewisburg PA 17837
 ```
 
-> **Note:** The `$` characters are escaped in the command above with a backslash (`\`) to ensure that they are passed as-is to the `boiler` command; otherwise, the `$` would be intereted by the shell *before* being passed to `boiler`. You will not need to escape the input document in this way if you are not specifying it directly in the shell.
+> **Note:** The `$` characters are escaped in the command above with a backslash (`\`) to ensure that they are passed as-is to the `plate` command; otherwise, the `$` would be intereted by the shell *before* being passed to `plate`. You will not need to escape the input document in this way if you are not specifying it directly in the shell.
 
 #### Specifying a template file
 
 The template document can be stored in a file, which makes it easier to perform repeated operations and lets you avoid needing to escape certain characters as you would in the shell.
 
-A template file is simply a text document contains Mockingbird expressions embedded within it. By convention, template filenames adopt the `.boilerplate` extension. Further, if the output of the `boiler` command is a file, it is customary to name the template file the same as the output file, but with `.boilerplate` added to the end.
+A template file is simply a text document contains Mockingbird expressions embedded within it. By convention, template filenames adopt the `.boilerplate` extension. Further, if the output of the `plate` command is a file, it is customary to name the template file the same as the output file, but with `.boilerplate` added to the end.
 
 For example, let’s say we’ve got a template file called `address.txt.boilerplate` that looks like:
 
@@ -133,7 +133,7 @@ $recipient.city $recipient.state $recipient.zip
 Running the following command:
 
 ```bash
-boiler -d shipping.xml -t address.txt.boilerplate
+plate -d shipping.xml -t address.txt.boilerplate
 ```
 
 yields the result:
@@ -149,7 +149,7 @@ Lewisburg PA 17837
 Instead of writing output to `stdout`, you can also direct output to a file:
 
 ```bash
-boiler -d shipping.xml -t address.txt.boilerplate -o address.txt
+plate -d shipping.xml -t address.txt.boilerplate -o address.txt
 ```
 
 This would create a file called `address.txt` containing:

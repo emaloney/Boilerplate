@@ -26,7 +26,7 @@
 
 /* Begin PBXFileReference section */
 		0F76DDF199368BC0A97ECEFB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B843C301B3CF9B80002D28C /* boiler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = boiler; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B843C301B3CF9B80002D28C /* plate */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = plate; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B843C3B1B3CF9E40002D28C /* ArgParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArgParser.swift; sourceTree = "<group>"; };
 		3B843C3C1B3CF9E40002D28C /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		3B843C4B1B3D103F0002D28C /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		3B843C311B3CF9B80002D28C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B843C301B3CF9B80002D28C /* boiler */,
+				3B843C301B3CF9B80002D28C /* plate */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B843C2F1B3CF9B80002D28C /* boiler */ = {
+		3B843C2F1B3CF9B80002D28C /* plate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B843C371B3CF9B80002D28C /* Build configuration list for PBXNativeTarget "boiler" */;
+			buildConfigurationList = 3B843C371B3CF9B80002D28C /* Build configuration list for PBXNativeTarget "plate" */;
 			buildPhases = (
 				A2F9C85682F2B0099878C58A /* Check Pods Manifest.lock */,
 				3B843C2C1B3CF9B80002D28C /* Sources */,
@@ -116,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = boiler;
+			name = plate;
 			productName = Boilerplate;
-			productReference = 3B843C301B3CF9B80002D28C /* boiler */;
+			productReference = 3B843C301B3CF9B80002D28C /* plate */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -148,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B843C2F1B3CF9B80002D28C /* boiler */,
+				3B843C2F1B3CF9B80002D28C /* plate */,
 			);
 		};
 /* End PBXProject section */
@@ -307,7 +307,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B843C371B3CF9B80002D28C /* Build configuration list for PBXNativeTarget "boiler" */ = {
+		3B843C371B3CF9B80002D28C /* Build configuration list for PBXNativeTarget "plate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B843C381B3CF9B80002D28C /* Debug */,

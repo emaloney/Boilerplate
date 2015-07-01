@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3B843C2F1B3CF9B80002D28C"
-               BuildableName = "boiler"
-               BlueprintName = "boiler"
+               BuildableName = "plate"
+               BlueprintName = "plate"
                ReferencedContainer = "container:Boilerplate.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B843C2F1B3CF9B80002D28C"
-            BuildableName = "boiler"
-            BlueprintName = "boiler"
+            BuildableName = "plate"
+            BlueprintName = "plate"
             ReferencedContainer = "container:Boilerplate.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B843C2F1B3CF9B80002D28C"
-            BuildableName = "boiler"
-            BlueprintName = "boiler"
+            BuildableName = "plate"
+            BlueprintName = "plate"
             ReferencedContainer = "container:Boilerplate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B843C2F1B3CF9B80002D28C"
-            BuildableName = "boiler"
-            BlueprintName = "boiler"
+            BuildableName = "plate"
+            BlueprintName = "plate"
             ReferencedContainer = "container:Boilerplate.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
