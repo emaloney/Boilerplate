@@ -224,7 +224,7 @@ if argList.hasArgument(.ManifestFile) {
 
 let env: MBEnvironment
 if let manifest = manifest {
-    env = MBEnvironment.loadFromManifestFile(manifest)!
+    env = MBEnvironment.loadFromManifestFile(manifest, withSearchDirectory: NSFileManager.defaultManager().currentDirectoryPath)
 } else {
     env = MBEnvironment.loadDefaultEnvironment()!
 }
