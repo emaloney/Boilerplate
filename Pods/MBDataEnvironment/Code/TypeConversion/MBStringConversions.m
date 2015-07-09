@@ -69,6 +69,7 @@ NSString* const kMBMLTableViewCellStyleSubtitle             = @"subtitle";
 NSString* const kMBMLTableViewCellSelectionStyleNone        = @"none";
 NSString* const kMBMLTableViewCellSelectionStyleBlue        = @"blue";
 NSString* const kMBMLTableViewCellSelectionStyleGray        = @"gray";
+NSString* const kMBMLTableViewCellSelectionStyleDefault     = @"default";
 NSString* const kMBMLTableViewCellSelectionStyleGradient    = @"gradient";
 
 NSString* const kMBMLTableViewCellAccessoryNone                     = @"none";
@@ -262,6 +263,38 @@ NSString* const kMBMLPopoverArrowDirectionAny               = @"any";
 + (void) _logError:(NSError*)err fromExpression:(NSString*)expr
 {
     MBLogError(@"%@ error: %@ (offending expression: \"%@\")", [self class], [err localizedDescription], expr);
+}
+
+/******************************************************************************/
+#pragma mark NSArray conversions
+/******************************************************************************/
+
++ (nonnull NSArray*) arrayFromCommaSeparatedString:(nonnull NSString*)str
+{
+    return [self arrayFromString:str
+                   withSeparator:@","
+                      trimResult:YES];
+}
+
++ (nonnull NSArray*) arrayFromCommaSeparatedExpressionResult:(nonnull NSString*)expr
+{
+    NSString* result = [expr evaluateAsString];
+    if (result) {
+        return [self arrayFromCommaSeparatedString:result];
+    }
+    return [NSArray new];
+}
+
++ (nonnull NSArray*) arrayFromString:(nonnull NSString*)str
+                       withSeparator:(nonnull NSString*)separator
+                          trimResult:(BOOL)trim
+{
+    NSArray* comps = [str componentsSeparatedByString:separator];
+    NSMutableArray* results = [[NSMutableArray alloc] initWithCapacity:comps.count];
+    for (NSString* str in comps) {
+        [results addObject:MBTrimString(str)];
+    }
+    return results;
 }
 
 /******************************************************************************/
@@ -1131,13 +1164,16 @@ NSString* const kMBMLPopoverArrowDirectionAny               = @"any";
     else if ([str isEqualToString:kMBMLTableViewCellSelectionStyleGray]) {
         return MBTableViewCellSelectionStyleGray;
     }
+    else if ([str isEqualToString:kMBMLTableViewCellSelectionStyleDefault]) {
+        return MBTableViewCellSelectionStyleDefault;
+    }
     else if ([str isEqualToString:kMBMLTableViewCellSelectionStyleGradient]) {
         return MBTableViewCellSelectionStyleGradient;
     }
     else {
         [self _reportCouldNotParse:str
                                 as:MBStringify(UITableViewCellSelectionStyle)
-               expectingValueAmong:@[kMBMLTableViewCellSelectionStyleNone, kMBMLTableViewCellSelectionStyleBlue, kMBMLTableViewCellSelectionStyleGray, kMBMLTableViewCellSelectionStyleGradient]
+               expectingValueAmong:@[kMBMLTableViewCellSelectionStyleNone, kMBMLTableViewCellSelectionStyleBlue, kMBMLTableViewCellSelectionStyleGray, kMBMLTableViewCellSelectionStyleDefault, kMBMLTableViewCellSelectionStyleGradient]
                                 to:errPtr];
     }
     
