@@ -3,8 +3,6 @@
 *.xcodeproj/*.mode1v3
 *.xcodeproj/*.pbxuser
 *.xcodeproj/*.perspectivev3
-*.xcodeproj/project.xcworkspace/xcuserdata/
-*.xcodeproj/xcuserdata/
-*.xcworkspace/xcuserdata/
+xcuserdata/
 *~
 build/
