@@ -10,7 +10,7 @@
 #define COCOAPODS_POD_AVAILABLE_MBDataEnvironment
 #define COCOAPODS_VERSION_MAJOR_MBDataEnvironment 1
 #define COCOAPODS_VERSION_MINOR_MBDataEnvironment 1
-#define COCOAPODS_VERSION_PATCH_MBDataEnvironment 7
+#define COCOAPODS_VERSION_PATCH_MBDataEnvironment 8
 
 // MBToolbox
 #define COCOAPODS_POD_AVAILABLE_MBToolbox
