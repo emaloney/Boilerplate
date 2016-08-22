@@ -1,1 +1,3 @@
-pod 'MBDataEnvironment',  '~> 1.1.8'
+target "plate" do
+    pod 'MBDataEnvironment',  '~> 1.3.12'
+end
