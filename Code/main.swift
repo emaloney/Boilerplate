@@ -1,12 +1,18 @@
 //
 //  main.swift
-//  cli
+//  Boilerplate
 //
 //  Created by Evan Maloney on 6/25/15.
 //  Copyright © 2015 Gilt Groupe. All rights reserved.
 //
 
 import Foundation
+
+/*******************************************************************************
+
+    Global functions
+ 
+ */
 
 func readUntilEOF()
     -> String
@@ -26,6 +32,11 @@ func readFromPath(path: String)
     return try! NSString(contentsOfFile: path, encoding: NSUTF8StringEncoding) as String
 }
 
+/*******************************************************************************
+
+ Types
+
+ */
 
 enum ArgumentName: String
 {
@@ -87,14 +98,13 @@ enum OutputDestination
     {
         switch self {
         case .Stdout:
-            print(out, appendNewline: false)
+            print(out, terminator: "")
 
         case .File(let path):
             try! (out as NSString).writeToFile(path, atomically: true, encoding: NSUTF8StringEncoding)
         }
     }
 }
-
 
 extension ArgumentDeclaration
 {
@@ -156,8 +166,11 @@ extension ArgumentValues
     }
 }
 
+/*******************************************************************************
 
+ Command-line execution
 
+ */
 let dataFile = ArgumentDeclaration.forName(.DataFile, type: .SingleValue, shortForm: "d", longForm: "data")
 let stdinData = ArgumentDeclaration.forName(.StdinData, type: .Flag, longForm: "stdin-data")
 let templateFile = ArgumentDeclaration.forName(.TemplateFile, type: .SingleValue, shortForm: "t", longForm: "template")
@@ -222,11 +235,14 @@ if argList.hasArgument(.ManifestFile) {
     manifest = argList.argumentValue(.ManifestFile)
 }
 
-let env: MBEnvironment
+let env = MBEnvironment.loadDefaultEnvironment()!
+env.addSearchDirectory(NSFileManager.defaultManager().currentDirectoryPath)
+
+let vars = MBVariableSpace.instance()!
+vars["ENV"] = NSProcessInfo.processInfo().environment
+
 if let manifest = manifest {
-    env = MBEnvironment.loadFromManifestFile(manifest, withSearchDirectory: NSFileManager.defaultManager().currentDirectoryPath)
-} else {
-    env = MBEnvironment.loadDefaultEnvironment()!
+    env.loadMBMLFile(manifest)
 }
 
 let template = templateSource.read()
