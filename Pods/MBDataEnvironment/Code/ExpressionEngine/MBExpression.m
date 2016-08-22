@@ -6,6 +6,8 @@
 //  Copyright (c) 2010 Gilt Groupe. All rights reserved.
 //
 
+#import <MBToolbox/MBToolbox.h>
+
 #import "MBExpression.h"
 #import "MBMLParseToken.h"
 #import "MBExpressionCache.h"
@@ -118,6 +120,11 @@ NSString* const kMBMLBooleanStringFalse  = @"F";
 {
     if ((!lValue && !rValue) || lValue == rValue) {
         return NSOrderedSame;
+    }
+
+    // if we're dealing entirely with strings, do a locale-appropriate comparison
+    if ([lValue isKindOfClass:[NSString class]] && [rValue isKindOfClass:[NSString class]]) {
+        return [lValue localizedCompare:rValue];
     }
 
     // use native comparison if the lvalue and rvalue are compatible objects

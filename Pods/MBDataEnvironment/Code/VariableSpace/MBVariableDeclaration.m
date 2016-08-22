@@ -6,10 +6,12 @@
 //  Copyright (c) 2012 Gilt Groupe. All rights reserved.
 //
 
-#import <RaptureXML@Gilt/RXMLElement.h>
+#import <RaptureXML/RaptureXML.h>
+#import <MBToolbox/MBToolbox.h>
 
 #import "MBVariableDeclaration.h"
 #import "MBVariableSpace.h"
+#import "MBExpression.h"
 
 #define DEBUG_LOCAL         0
 

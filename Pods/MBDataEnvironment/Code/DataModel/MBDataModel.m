@@ -6,11 +6,12 @@
 //  Copyright (c) 2012 Gilt Groupe. All rights reserved.
 //
 
-#import <RaptureXML@Gilt/RXMLElement.h>
+#import <RaptureXML/RaptureXML.h>
 #import <MBToolbox/MBToolbox.h>
 
 #import "MBDataModel.h"
 #import "MBExpression.h"
+#import "MBExpressionExtensions.h"
 #import "MBEnvironment.h"
 #import "MBDataEnvironmentModule.h"
 

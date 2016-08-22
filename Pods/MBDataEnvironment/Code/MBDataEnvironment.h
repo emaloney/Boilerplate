@@ -13,6 +13,13 @@
 #else
 
 #import <Foundation/Foundation.h>
+#import <MBToolbox/MBToolbox.h>
+
+#if MB_BUILD_IOS
+#import <UIKit/UIKit.h>
+#else
+#import <AppKit/AppKit.h>
+#endif
 
 //! Project version number for MBDataEnvironment.
 FOUNDATION_EXPORT double MBDataEnvironmentVersionNumber;
@@ -24,9 +31,6 @@ FOUNDATION_EXPORT const unsigned char MBDataEnvironmentVersionString[];
 // NOTE: This header file is indended for external use. It should *not* be
 //       included from within code in the Mockingbird Data Environment itself.
 //
-
-// import headers from inherited modules
-#import <MBToolbox/MBToolbox.h>
 
 #if MB_BUILD_IOS
 #import <MBDataEnvironment/MBDevice.h>
@@ -60,6 +64,7 @@ FOUNDATION_EXPORT const unsigned char MBDataEnvironmentVersionString[];
 #import <MBDataEnvironment/MBMLFunction.h>
 #import <MBDataEnvironment/MBDataEnvironmentConstants.h>
 #import <MBDataEnvironment/MBDataEnvironmentModule.h>
+#import <MBDataEnvironment/MBPlatform.h>
 #import <MBDataEnvironment/MBStringConversions.h>
 #import <MBDataEnvironment/TypeCoercionSupport.h>
 #import <MBDataEnvironment/MBScopedVariables.h>

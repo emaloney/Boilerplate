@@ -6,13 +6,14 @@
 //  Copyright (c) 2013 Gilt Groupe. All rights reserved.
 //
 
-#import <RaptureXML@Gilt/RXMLElement.h>
+#import <RaptureXML/RaptureXML.h>
 #import <MBToolbox/MBToolbox.h>
 
 #import "MBEnvironment.h"
 #import "MBEnvironmentLoader.h"
 #import "MBVariableSpace.h"
 #import "MBExpression.h"
+#import "MBExpressionExtensions.h"
 #import "MBDataEnvironmentModule.h"
 #import "MBDataEnvironmentConstants.h"
 
@@ -711,6 +712,28 @@ static NSMutableArray* s_resourceBundles = nil;
             }
         }
     }];
+}
+
+/******************************************************************************/
+#pragma mark Search directory management
+/******************************************************************************/
+
+- (void) addSearchDirectory:(nonnull NSString*)dirPath;
+{
+    if (_additionalSearchDirectories) {
+        _additionalSearchDirectories = [_additionalSearchDirectories arrayByAddingObject:dirPath];
+    } else {
+        _additionalSearchDirectories = [NSArray arrayWithObject:dirPath];
+    }
+}
+
+- (void) addSearchDirectories:(nonnull NSArray*)dirPaths;
+{
+    if (_additionalSearchDirectories) {
+        _additionalSearchDirectories = [_additionalSearchDirectories arrayByAddingObjectsFromArray:dirPaths];
+    } else {
+        _additionalSearchDirectories = [dirPaths copy];
+    }
 }
 
 /******************************************************************************/

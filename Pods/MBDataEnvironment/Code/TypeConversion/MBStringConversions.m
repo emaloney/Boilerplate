@@ -10,6 +10,7 @@
 
 #import "MBStringConversions.h"
 #import "MBExpression.h"
+#import "MBExpressionExtensions.h"
 #import "MBDataEnvironmentConstants.h"
 #import "MBDataEnvironmentModule.h"
 
@@ -164,6 +165,9 @@ NSString* const kMBMLBarButtonSystemItemPageCurl			= @"pageCurl";
 NSString* const kMBMLBarButtonItemStylePlain                = @"plain";
 NSString* const kMBMLBarButtonItemStyleBordered             = @"bordered";
 NSString* const kMBMLBarButtonItemStyleDone                 = @"done";
+
+NSString* const kMBMLStatusBarStyleDarkText                 = @"darkText";
+NSString* const kMBMLStatusBarStyleLightText                = @"lightText";
 
 NSString* const kMBMLStatusBarAnimationNone                 = @"none";
 NSString* const kMBMLStatusBarAnimationFade                 = @"fade";
@@ -1719,6 +1723,43 @@ NSString* const kMBMLPopoverArrowDirectionAny               = @"any";
 {
     NSError* err = nil;
     UIBarButtonItemStyle val = [self barButtonItemStyleFromString:[expr evaluateAsString] error:&err];
+    if (err) {
+        [self _logError:err fromExpression:expr];
+    }
+    return val;
+}
+
+/******************************************************************************/
+#pragma mark UIStatusBarAnimation conversions
+/******************************************************************************/
+
++ (UIStatusBarStyle) statusBarStyleFromString:(nonnull NSString*)str
+{
+    return [self statusBarStyleFromString:str error:nil];
+}
+
++ (UIStatusBarStyle) statusBarStyleFromString:(nonnull NSString*)str error:(NSErrorPtrPtr)errPtr
+{
+    if ([str isEqualToString:kMBMLStatusBarStyleDarkText]) {
+        return UIStatusBarStyleDefault;
+    }
+    else if ([str isEqualToString:kMBMLStatusBarStyleLightText]) {
+        return UIStatusBarStyleLightContent;
+    }
+    else {
+        [self _reportCouldNotParse:str
+                                as:MBStringify(UIStatusBarStyle)
+               expectingValueAmong:@[kMBMLStatusBarStyleDarkText, kMBMLStatusBarStyleLightText]
+                                to:errPtr];
+    }
+
+    return UIStatusBarStyleDefault;
+}
+
++ (UIStatusBarStyle) statusBarStyleFromExpression:(nonnull NSString*)expr
+{
+    NSError* err = nil;
+    UIStatusBarStyle val = [self statusBarStyleFromString:[expr evaluateAsString] error:&err];
     if (err) {
         [self _logError:err fromExpression:expr];
     }

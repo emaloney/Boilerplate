@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Gilt Groupe. All rights reserved.
 //
 
-#import <MBToolbox/MBSingleton.h>
+#import <MBToolbox/MBToolbox.h>
 
 #import "MBDataModel.h"
 
@@ -219,6 +219,37 @@ extern NSString* const __nonnull kMBMLIncludeTagName;                 // @"Inclu
  */
 + (nullable instancetype) loadFromManifestFile:(nullable NSString*)manifestName
                          withSearchDirectories:(nullable NSArray*)dirPaths;
+
+/*----------------------------------------------------------------------------*/
+#pragma mark Search directory management
+/*!    @name Search directory management                                                     */
+/*----------------------------------------------------------------------------*/
+
+/*!
+ Adds the specified directory path to the list of search directories.
+
+ When attempting to locate an MBML file, the receiver first consults the search
+ directories, in order, for a file with the given name. If the file isn't found
+ in any of the search directories, the `resourceSearchBundles` will then be
+ searched.
+
+ @param     dirPath The path of a directory that to be searched when trying to
+            locate MBML files.
+ */
+- (void) addSearchDirectory:(nonnull NSString*)dirPath;
+
+/*!
+ Adds the specified directory paths to the list of search directories.
+ 
+ When attempting to locate an MBML file, the receiver first consults the search
+ directories, in order, for a file with the given name. If the file isn't found
+ in any of the search directories, the `resourceSearchBundles` will then be
+ searched.
+
+ @param     dirPaths An array containing the paths of directories to be 
+            searched when trying to locate MBML files.
+ */
+- (void) addSearchDirectories:(nonnull NSArray*)dirPaths;
 
 /*----------------------------------------------------------------------------*/
 #pragma mark MBML loading

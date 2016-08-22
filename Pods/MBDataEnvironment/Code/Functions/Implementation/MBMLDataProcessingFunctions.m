@@ -6,9 +6,12 @@
 //  Copyright (c) 2011 Gilt Groupe. All rights reserved.
 //
 
+#import <MBToolbox/MBToolbox.h>
+
 #import "MBMLDataProcessingFunctions.h"
 #import "MBMLFunction.h"
 #import "MBVariableSpace.h"
+#import "MBExpression.h"
 
 #define DEBUG_LOCAL     0
 

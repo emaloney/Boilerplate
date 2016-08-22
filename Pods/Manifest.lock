@@ -1,122 +1,124 @@
 PODS:
-  - MBDataEnvironment (1.1.8):
-    - MBToolbox (~> 1.1.6)
-    - RaptureXML@Gilt (~> 1.0.4)
-  - MBToolbox (1.1.6):
-    - MBToolbox/Assert (= 1.1.6)
-    - MBToolbox/Availability (= 1.1.6)
-    - MBToolbox/BatteryMonitor (= 1.1.6)
-    - MBToolbox/BitmapPixelPlane (= 1.1.6)
-    - MBToolbox/BuildControl (= 1.1.6)
-    - MBToolbox/Common (= 1.1.6)
-    - MBToolbox/ConcurrentReadWriteCoordinator (= 1.1.6)
-    - MBToolbox/Debug (= 1.1.6)
-    - MBToolbox/Events (= 1.1.6)
-    - MBToolbox/FieldListFormatter (= 1.1.6)
-    - MBToolbox/FilesystemCache (= 1.1.6)
-    - MBToolbox/FilesystemOperations (= 1.1.6)
-    - MBToolbox/FormattedDescriptionObject (= 1.1.6)
-    - MBToolbox/ImageScaling-UIImage (= 1.1.6)
-    - MBToolbox/Indentation-NSString (= 1.1.6)
-    - MBToolbox/MBToolbox-NSError (= 1.1.6)
-    - MBToolbox/MBToolbox-UIColor (= 1.1.6)
-    - MBToolbox/MessageDigest (= 1.1.6)
-    - MBToolbox/MessageDigest-Extensions (= 1.1.6)
-    - MBToolbox/MessageDigest-NSData (= 1.1.6)
-    - MBToolbox/MessageDigest-NSString (= 1.1.6)
-    - MBToolbox/Module (= 1.1.6)
-    - MBToolbox/NetworkIndicator (= 1.1.6)
-    - MBToolbox/NetworkMonitor (= 1.1.6)
-    - MBToolbox/OperationQueue (= 1.1.6)
-    - MBToolbox/Regex-NSString (= 1.1.6)
-    - MBToolbox/RegexCache (= 1.1.6)
-    - MBToolbox/RoundedRectTools (= 1.1.6)
-    - MBToolbox/Runtime (= 1.1.6)
-    - MBToolbox/ServiceManager (= 1.1.6)
-    - MBToolbox/Singleton (= 1.1.6)
-    - MBToolbox/SnapshotImage-UIView (= 1.1.6)
-    - MBToolbox/StringConversions-NSData (= 1.1.6)
-    - MBToolbox/StringFunctions (= 1.1.6)
-    - MBToolbox/StringSizing-UIFont (= 1.1.6)
-    - MBToolbox/ThreadLocalStorage (= 1.1.6)
-    - MBToolbox/ThreadsafeCache (= 1.1.6)
-  - MBToolbox/Assert (1.1.6)
-  - MBToolbox/Availability (1.1.6)
-  - MBToolbox/BitmapPixelPlane (1.1.6):
+  - MBDataEnvironment (1.3.12):
+    - MBToolbox (~> 1.2.2)
+    - RaptureXML@Gilt (~> 1.0.11)
+  - MBToolbox (1.2.2):
+    - MBToolbox/Assert (= 1.2.2)
+    - MBToolbox/Availability (= 1.2.2)
+    - MBToolbox/BatteryMonitor (= 1.2.2)
+    - MBToolbox/BitmapPixelPlane (= 1.2.2)
+    - MBToolbox/BuildControl (= 1.2.2)
+    - MBToolbox/Common (= 1.2.2)
+    - MBToolbox/ConcurrentReadWriteCoordinator (= 1.2.2)
+    - MBToolbox/Debug (= 1.2.2)
+    - MBToolbox/Events (= 1.2.2)
+    - MBToolbox/FieldListFormatter (= 1.2.2)
+    - MBToolbox/FilesystemCache (= 1.2.2)
+    - MBToolbox/FilesystemOperations (= 1.2.2)
+    - MBToolbox/FormattedDescriptionObject (= 1.2.2)
+    - MBToolbox/ImageScaling-UIImage (= 1.2.2)
+    - MBToolbox/Indentation-NSString (= 1.2.2)
+    - MBToolbox/MBToolbox-NSError (= 1.2.2)
+    - MBToolbox/MBToolbox-UIColor (= 1.2.2)
+    - MBToolbox/MessageDigest (= 1.2.2)
+    - MBToolbox/MessageDigest-Extensions (= 1.2.2)
+    - MBToolbox/MessageDigest-NSData (= 1.2.2)
+    - MBToolbox/MessageDigest-NSString (= 1.2.2)
+    - MBToolbox/Module (= 1.2.2)
+    - MBToolbox/NetworkIndicator (= 1.2.2)
+    - MBToolbox/NetworkMonitor (= 1.2.2)
+    - MBToolbox/OperationQueue (= 1.2.2)
+    - MBToolbox/Regex-NSString (= 1.2.2)
+    - MBToolbox/RegexCache (= 1.2.2)
+    - MBToolbox/RoundedRectTools (= 1.2.2)
+    - MBToolbox/Runtime (= 1.2.2)
+    - MBToolbox/ServiceManager (= 1.2.2)
+    - MBToolbox/Singleton (= 1.2.2)
+    - MBToolbox/SnapshotImage-UIView (= 1.2.2)
+    - MBToolbox/StringConversions-NSData (= 1.2.2)
+    - MBToolbox/StringFunctions (= 1.2.2)
+    - MBToolbox/StringSizing-UIFont (= 1.2.2)
+    - MBToolbox/ThreadLocalStorage (= 1.2.2)
+    - MBToolbox/ThreadsafeCache (= 1.2.2)
+  - MBToolbox/Assert (1.2.2)
+  - MBToolbox/Availability (1.2.2)
+  - MBToolbox/BitmapPixelPlane (1.2.2):
     - MBToolbox/Module
-  - MBToolbox/BuildControl (1.1.6)
-  - MBToolbox/Common (1.1.6):
+  - MBToolbox/BuildControl (1.2.2)
+  - MBToolbox/Common (1.2.2):
     - MBToolbox/Assert
     - MBToolbox/Availability
     - MBToolbox/Debug
     - MBToolbox/Runtime
-  - MBToolbox/ConcurrentReadWriteCoordinator (1.1.6)
-  - MBToolbox/Debug (1.1.6)
-  - MBToolbox/Events (1.1.6):
+  - MBToolbox/ConcurrentReadWriteCoordinator (1.2.2)
+  - MBToolbox/Debug (1.2.2)
+  - MBToolbox/Events (1.2.2):
     - MBToolbox/Module
-  - MBToolbox/FieldListFormatter (1.1.6):
+  - MBToolbox/FieldListFormatter (1.2.2):
     - MBToolbox/Module
-  - MBToolbox/FilesystemCache (1.1.6):
+  - MBToolbox/FilesystemCache (1.2.2):
     - MBToolbox/FilesystemOperations
     - MBToolbox/MessageDigest-NSString
     - MBToolbox/ThreadsafeCache
-  - MBToolbox/FilesystemOperations (1.1.6):
+  - MBToolbox/FilesystemOperations (1.2.2):
     - MBToolbox/OperationQueue
     - MBToolbox/Singleton
-  - MBToolbox/FormattedDescriptionObject (1.1.6):
+  - MBToolbox/FormattedDescriptionObject (1.2.2):
     - MBToolbox/FieldListFormatter
-  - MBToolbox/Indentation-NSString (1.1.6)
-  - MBToolbox/MBToolbox-NSError (1.1.6):
+  - MBToolbox/Indentation-NSString (1.2.2)
+  - MBToolbox/MBToolbox-NSError (1.2.2):
     - MBToolbox/Module
-  - MBToolbox/MessageDigest (1.1.6):
+  - MBToolbox/MessageDigest (1.2.2):
     - MBToolbox/MBToolbox-NSError
     - MBToolbox/Module
-  - MBToolbox/MessageDigest-Extensions (1.1.6):
+  - MBToolbox/MessageDigest-Extensions (1.2.2):
     - MBToolbox/MessageDigest-NSData
     - MBToolbox/MessageDigest-NSString
-  - MBToolbox/MessageDigest-NSData (1.1.6):
+  - MBToolbox/MessageDigest-NSData (1.2.2):
     - MBToolbox/MessageDigest
-  - MBToolbox/MessageDigest-NSString (1.1.6):
+  - MBToolbox/MessageDigest-NSString (1.2.2):
     - MBToolbox/MessageDigest
-  - MBToolbox/Module (1.1.6):
+  - MBToolbox/Module (1.2.2):
     - MBToolbox/ConcurrentReadWriteCoordinator
     - MBToolbox/Indentation-NSString
     - MBToolbox/Singleton
-  - MBToolbox/NetworkMonitor (1.1.6):
+  - MBToolbox/NetworkMonitor (1.2.2):
     - MBToolbox/Events
     - MBToolbox/ServiceManager
-  - MBToolbox/OperationQueue (1.1.6):
+  - MBToolbox/OperationQueue (1.2.2):
     - MBToolbox/MBToolbox-NSError
-  - MBToolbox/Regex-NSString (1.1.6):
+  - MBToolbox/Regex-NSString (1.2.2):
     - MBToolbox/RegexCache
-  - MBToolbox/RegexCache (1.1.6):
+  - MBToolbox/RegexCache (1.2.2):
     - MBToolbox/MBToolbox-NSError
     - MBToolbox/Singleton
     - MBToolbox/ThreadsafeCache
-  - MBToolbox/RoundedRectTools (1.1.6):
+  - MBToolbox/RoundedRectTools (1.2.2):
     - MBToolbox/Module
-  - MBToolbox/Runtime (1.1.6)
-  - MBToolbox/ServiceManager (1.1.6):
+  - MBToolbox/Runtime (1.2.2)
+  - MBToolbox/ServiceManager (1.2.2):
     - MBToolbox/Module
     - MBToolbox/Singleton
-  - MBToolbox/Singleton (1.1.6):
+  - MBToolbox/Singleton (1.2.2):
     - MBToolbox/Common
-  - MBToolbox/StringConversions-NSData (1.1.6):
+  - MBToolbox/StringConversions-NSData (1.2.2):
     - MBToolbox/Module
-  - MBToolbox/StringFunctions (1.1.6):
+  - MBToolbox/StringFunctions (1.2.2):
     - MBToolbox/Common
-  - MBToolbox/ThreadLocalStorage (1.1.6):
+  - MBToolbox/ThreadLocalStorage (1.2.2):
     - MBToolbox/Module
-  - MBToolbox/ThreadsafeCache (1.1.6):
+  - MBToolbox/ThreadsafeCache (1.2.2):
     - MBToolbox/Module
-  - RaptureXML@Gilt (1.0.4)
+  - RaptureXML@Gilt (1.0.11)
 
 DEPENDENCIES:
-  - MBDataEnvironment (~> 1.1.8)
+  - MBDataEnvironment (~> 1.3.12)
 
 SPEC CHECKSUMS:
-  MBDataEnvironment: 5a28ff2f9dc95924c7362901ce8d535bd3384694
-  MBToolbox: af070115d7f96d02a556681dfae757744a5dd87c
-  RaptureXML@Gilt: cfde4ff1694563d9e45e74640c0cd4f887f500ed
+  MBDataEnvironment: cb17528f697b4082556dbabb1abc09d39e99424e
+  MBToolbox: 7f0b91e034375d6b0cf9136230e0aaf0d2d5323c
+  RaptureXML@Gilt: 4b6271a68aa150413726523835dbec367d94c9b1
 
-COCOAPODS: 0.37.2
+PODFILE CHECKSUM: 4c93f172d42b888534d9f0827a8d57864113742c
+
+COCOAPODS: 1.0.1
