@@ -181,27 +181,7 @@ let output = ArgumentDeclaration.forName(.OutputFile, type: .SingleValue, shortF
 
 let proc = ArgumentProcessor(declarations: [dataFile, stdinData, templateFile, verbose, help, output, manifestFile])
 
-//print(Process.arguments)
 let argList = proc.process(Process.arguments)
-//print(argList)
-
-//for argName in argList.names {
-//    if argList.isDeclaredArgument(argName) {
-//        if argList.hasMultipleValues(argName) {
-//            let values = argList.allArgumentValues(argName)
-//            print("\(argName) = \(values)")
-//        }
-//        else if let str = argList.argumentValue(argName) {
-//            print("\(argName) = \(str)")
-//        }
-//        else {
-//            print("\(argName) = true")
-//        }
-//    }
-//    else {
-//        print("UNRECOGNIZED: \(argName)")
-//    }
-//}
 
 var manifest: String?
 var templateSource = TemplateSource.Stdin
